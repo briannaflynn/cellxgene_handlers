@@ -6,9 +6,7 @@ Scripts for processing high dimensional data from the CZI cell x gene dataset
 
 Notes:
 
-'''
-curl -X 'GET' 'https://api.cellxgene.cziscience.com/curation/v1/collections?visibility=PUBLIC' -H 'accept: application/json' > collections.json
-'''
+```curl -X 'GET' 'https://api.cellxgene.cziscience.com/curation/v1/collections?visibility=PUBLIC' -H 'accept: application/json' > collections.json```
 
 1) Use this command to get all available collections
 
