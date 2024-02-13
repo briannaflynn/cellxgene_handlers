@@ -25,7 +25,7 @@ def fetch_and_save_dataset_urls(collection_id, create_directory=False):
     
     # option to create a directory for the collection_id
     if create_directory:
-        directory_path = os.path.join(os.getcwd(), collection_id)
+        directory_path = os.path.join(os.getcwd(), 'collections', collection_id)
         os.makedirs(directory_path, exist_ok=True)  # Create the directory if it doesn't exist
         csv_filename = os.path.join(directory_path, f'{collection_id}_dataset_urls.csv')
         json_filename = os.path.join(directory_path, f'{collection_id}_metadata.json')
