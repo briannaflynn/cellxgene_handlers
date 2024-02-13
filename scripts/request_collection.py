@@ -40,6 +40,6 @@ def fetch_and_save_dataset_urls(collection_id, create_directory=False):
     print(f"Dataset URLs have been saved to {csv_filename}")
     print(f"Metadata has been saved to {json_filename}")
 
-# Example usage:
-collection_id = sys.argv[1]
-fetch_and_save_dataset_urls(collection_id, create_directory=True)
+# example for testing
+# collection_id = sys.argv[1]
+# fetch_and_save_dataset_urls(collection_id, create_directory=True)
