@@ -1,4 +1,4 @@
-Example sub-directory generated for download
+Example sub-directory
 
 Each directory contains a file with {collection_id}_metadata.json, a JSON file containing all metadata such as publication information related to the collection and associated datasets. 
 
