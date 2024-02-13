@@ -30,11 +30,11 @@ $PRUN $EXECUTABLE $CONTROL_FILE
 
 def main():
     parser = argparse.ArgumentParser(description="Generate a custom SLURM job script.")
-    parser.add_argument("job_name", help="Job name (VAR1)")
-    parser.add_argument("queue", help="Queue name on the system (VAR2)")
-    parser.add_argument("nodes", help="Total number of nodes requested (VAR3)")
-    parser.add_argument("runtime", help="Run time in hh:mm:ss format (VAR4)")
-    parser.add_argument("control_file", help="Path to the control file (VAR5)")
+    parser.add_argument("job_name", help="Job name")
+    parser.add_argument("queue", help="Queue name on the system")
+    parser.add_argument("nodes", help="Total number of nodes requested")
+    parser.add_argument("runtime", help="Run time in hh:mm:ss format")
+    parser.add_argument("control_file", help="Path to the control file")
     parser.add_argument("--allocation", default="OTH21095", help="Allocation name (optional)")
 
     args = parser.parse_args()
