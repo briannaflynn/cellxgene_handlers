@@ -1,9 +1,13 @@
 #!/usr/bin/python
 
+
+#!/usr/bin/python
+
 import requests
 import pandas as pd
 import sys
 import os
+import json
 
 def fetch_and_save_dataset_urls(collection_id, create_directory=False):
     domain_name = "cellxgene.cziscience.com"
@@ -24,12 +28,17 @@ def fetch_and_save_dataset_urls(collection_id, create_directory=False):
         directory_path = os.path.join(os.getcwd(), collection_id)
         os.makedirs(directory_path, exist_ok=True)  # Create the directory if it doesn't exist
         csv_filename = os.path.join(directory_path, f'{collection_id}_dataset_urls.csv')
+        json_filename = os.path.join(directory_path, f'{collection_id}_metadata.json')
     else:
         csv_filename = f'{collection_id}_dataset_urls.csv'
+        json_filename = f'{collection_id}_metadata.json'
     
     df.to_csv(csv_filename, header=None, index=False)
+    with open(json_filename, 'w') as json_file:
+        json.dump(res_content, json_file, indent=4)
     
     print(f"Dataset URLs have been saved to {csv_filename}")
+    print(f"Metadata has been saved to {json_filename}")
 
 # Example usage:
 collection_id = sys.argv[1]
