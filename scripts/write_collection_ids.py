@@ -2,8 +2,8 @@
 
 import json
 
-json_file_path = 'collections.json'
-output_file_path = 'collection_ids.txt'
+json_file_path = '../data/collections.json'
+output_file_path = '../data/collection_ids.txt'
 
 # Open and read the JSON file
 with open(json_file_path, 'r') as json_file:
