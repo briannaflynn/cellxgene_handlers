@@ -26,6 +26,5 @@ def split_file_into_chunks(file_path, lines_per_file=5, control_file = 'download
     
     print(f"Commands file '{commands_file_path}' has been created with all commands.")
 
-# Assuming 'collection_ids.txt' is in the current working directory
 source_file_path = '../data/collection_ids.txt'
 split_file_into_chunks(source_file_path)
