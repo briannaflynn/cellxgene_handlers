@@ -17,6 +17,8 @@ curl -X 'GET' 'https://api.cellxgene.cziscience.com/curation/v1/collections?visi
 
 4) Use ```h5ad_summarizer.py``` to check out .h5ad formatted datasets.
 
+5) When the download has finished, use ```check_h5ad.py``` to check the h5ad files in each sub-directory with their matches in each *_dataset_url.csv file to catch any files that were missed.
+
 ### Dataset structure:
 
 ```
