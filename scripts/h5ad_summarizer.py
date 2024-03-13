@@ -2,6 +2,7 @@ import h5py
 import sys
 import anndata as ad
 import pandas as pd
+import scipy
 
 '''Usage
 path to your h5ad file is supplied as argument
@@ -22,6 +23,7 @@ def summarize_h5ad(file_path):
         print(f"Data type: {data.dtype}")
 
         # layers
+        print('layers')
         print(f['layers'])
 
         # basic statistics of dense data
@@ -45,15 +47,19 @@ def summarize_h5ad(file_path):
 
         if 'obs' in f:
             print('Cell type')
-            print(f['obs/cell_type/categories'][:])
+            print(f['obs/cell_type/categories'].shape)
+            print('n count RNA example')
+            print(f['obs/nCount_RNA'][:10])
+            print(f['obs/cell_type_ontology_term_id/codes'][:])
             print(f['obs/cell_type/codes'][:])
             print(f['obs']['cell_type']['codes'].shape)
-
 
 def check_if_sparse(file_path):
 
     adata = ad.read_h5ad(file_path)
 
+    print('Get adata layers')
+    print(adata.layers.keys())
     is_sparse= False
     if isinstance(adata.X, (scipy.sparse.csv_matrix, scipy.sparse.csc_matrix)):
         is_sparse = True
@@ -62,18 +68,34 @@ def check_if_sparse(file_path):
 def generate_pandas_dataframe(file_path):
 
     adata = ad.read_h5ad(file_path)
+    # print('adata layers')
+    # print(adata.layers.keys())
+    # if scipy.sparse.issparse(adata.X):
+    #     data_matrix = adata.X.toarray()
+    # else:
+    #     data_matrix = adata.X
+    # print(adata.obs.columns)
+    # df = pd.DataFrame(data_matrix, columns=adata.var_names, index=adata.obs_names)
 
-    if scipy.sparse.issparse(adata.X):
-        data_matrix = adata.X.toarray()
-    else:
-        data_matrix = adata.X
+    # print(df)
 
-    df = pd.DataFrame(data_matrix, columns=adata.var_names, index=adata.obs_names)
+    # observations only
+    observations = adata.obs.reset_index()
+    print(observations)
+    # Access the raw count data
+    raw_counts_matrix = adata.raw.X
 
-    print(df) 
-
+    # Convert the raw counts matrix to a pandas DataFrame
+    # The index will be the cell IDs (from adata.obs_names) and the columns will be the gene names (from adata.raw.var['feature_name'] or adata.raw.var_names)
+    raw_counts_df = pd.DataFrame(raw_counts_matrix.toarray(),index=adata.obs_names, columns=adata.raw.var_names)
+    raw_counts_df = raw_counts_df.reset_index()
+    print(raw_counts_df.reset_index())
+    merged_df = observations[['index', 'cell_type', 'age_group', 'cell_type_ontology_term_id']].merge(raw_counts_df, on = 'index')
+    print(merged_df)
+    print(merged_df.columns)
 
 
 if __name__ == '__main__':
   file_path = sys.argv[1] # .hda5 file is the first argument
-  summarize_h5ad(file_path)
+  #summarize_h5ad(file_path)
+  generate_pandas_dataframe(file_path)
