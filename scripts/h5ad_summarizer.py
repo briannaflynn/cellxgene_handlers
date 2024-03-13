@@ -92,7 +92,7 @@ def generate_pandas_dataframe(file_path):
     raw_counts_df = raw_counts_df.astype({col: pd.SparseDtype("float", 0) for col in raw_counts_df.columns})
     raw_counts_df = raw_counts_df.reset_index()
     
-    merged_df = observations[['index', 'cell_type', 'age_group', 'cell_type_ontology_term_id']].merge(raw_counts_df, on = 'index')
+    merged_df = observations.merge(raw_counts_df, on = 'index')
     print(merged_df)
     print(merged_df.columns)
 
