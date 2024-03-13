@@ -88,11 +88,12 @@ def generate_pandas_dataframe(file_path):
     # Convert the raw counts matrix to a pandas DataFrame
     # The index will be the cell IDs (from adata.obs_names) and the columns will be the gene names (from adata.raw.var['feature_name'] or adata.raw.var_names)
     raw_counts_df = pd.DataFrame(raw_counts_matrix.toarray(),index=adata.obs_names, columns=adata.raw.var_names)
-    raw_counts_df = raw_counts_df.reset_index()
+    #raw_counts_df = raw_counts_df.reset_index()
+    raw_counts_df = raw_counts_df.astype({col: pd.SparseDtype("float", 0) for col in raw_counts_df.columns})
     print(raw_counts_df.reset_index())
-    merged_df = observations[['index', 'cell_type', 'age_group', 'cell_type_ontology_term_id']].merge(raw_counts_df, on = 'index')
-    print(merged_df)
-    print(merged_df.columns)
+    #merged_df = observations[['index', 'cell_type', 'age_group', 'cell_type_ontology_term_id']].merge(raw_counts_df, on = 'index')
+    #print(merged_df)
+    #print(merged_df.columns)
 
 
 if __name__ == '__main__':
