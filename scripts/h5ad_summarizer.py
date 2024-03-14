@@ -123,7 +123,7 @@ def generate_pandas_dataframe(file_path):
 
     # raw_counts_df = raw_counts_df.astype({col: pd.SparseDtype("float", 0) for col in raw_counts_df.columns})
     raw_counts_df = raw_counts_df.reset_index()
-    
+
     m_adult = observations[observations['age_group'] == 'adulthood']
     m_healthy_adult = m_adult[m_adult['disease'] == 'normal']
     healthy_adult_idx = m_healthy_adult['index'].to_list()
@@ -131,17 +131,17 @@ def generate_pandas_dataframe(file_path):
     filt_raw_counts_df = raw_counts_df.loc[raw_counts_df['index'].isin(healthy_adult_idx)]
     print(filt_raw_counts_df)
     
-    # merged_df = observations.merge(raw_counts_df, on = 'index')
+    merged_df = observations.merge(filt_raw_counts_df, on = 'index')
     # print('merge dataframe')
-    # print(merged_df)
+    print(merged_df)
     # print(merged_df.columns)
 
     # # subset to just healthy adults 
     # m_adult = merged_df[merged_df['age_group'] == 'adulthood']
     # m_healthy_adult = m_adult[m_adult['disease'] == 'normal']
-    # print('make aggregated data')
-    # aggregated_data = m_healthy_adult.groupby('cell_type').agg({col: ['mean', 'var', 'count'] for col in m_healthy_adult.select_dtypes(include=[np.number]).columns})
-    # print(aggregated_data)
+    print('make aggregated data')
+    aggregated_data = merged_df.groupby('cell_type').agg({col: ['mean', 'var', 'count'] for col in merged_df.select_dtypes(include=[np.number]).columns})
+    print(aggregated_data)
     # aggregated_data.to_csv('aggregated_' + file_path[:-5] + '.csv')    
 
 if __name__ == '__main__':
