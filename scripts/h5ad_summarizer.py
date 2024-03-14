@@ -117,6 +117,10 @@ def generate_pandas_dataframe(file_path):
     # The index will be the cell IDs (from adata.obs_names) and the columns will be the gene names (from adata.raw.var['feature_name'] or adata.raw.var_names)
     raw_counts_df = pd.DataFrame(raw_counts_matrix.toarray(),index=adata.obs_names, columns=adata.raw.var_names)
     
+    # get the indices of the healthy adult cell types - if there are multiple cell types, create a loop
+    # filter by indices first
+    # then use aggregation tool (agg breaks when creating sparse matrix first, so have to do this in a different memory efficient way)
+
     raw_counts_df = raw_counts_df.astype({col: pd.SparseDtype("float", 0) for col in raw_counts_df.columns})
     raw_counts_df = raw_counts_df.reset_index()
     
@@ -129,9 +133,9 @@ def generate_pandas_dataframe(file_path):
     m_adult = merged_df[merged_df['age_group'] == 'adulthood']
     m_healthy_adult = m_adult[m_adult['disease'] == 'normal']
     print('make aggregated data')
-    aggregated_data = m_healthy_adult.groupby('cell_type').agg({col: ['group_mean', 'variance', 'sample_size'] for col in m_healthy_adult.select_dtypes(include=[np.number]).columns})
+    aggregated_data = m_healthy_adult.groupby('cell_type').agg({col: ['mean', 'var', 'count'] for col in m_healthy_adult.select_dtypes(include=[np.number]).columns})
     print(aggregated_data)
-    aggregated_data.to_csv(file_path[:-5] + '.csv')    
+    aggregated_data.to_csv('aggregated_' + file_path[:-5] + '.csv')    
 
 if __name__ == '__main__':
   file_path = sys.argv[1] # .hda5 file is the first argument
