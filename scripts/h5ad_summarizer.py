@@ -3,6 +3,7 @@ import sys
 import anndata as ad
 import pandas as pd
 import scipy
+import numpy as np
 
 '''Usage
 path to your h5ad file is supplied as argument
@@ -65,6 +66,33 @@ def check_if_sparse(file_path):
         is_sparse = True
     print(f"Sparse matrix detected? {is_sparse}")
 
+import pandas as pd
+
+def calculate_combined_std(df):
+    """
+    Calculate the combined standard deviation from multiple groups.
+    
+    Parameters:
+    - df: pandas DataFrame with columns 'mean', 'variance', and 'sample_size'.
+    
+    Returns:
+    - combined_std: Combined standard deviation of the groups.
+    """
+    # Calculate the weighted average of the means (grand mean)
+    grand_mean = (df['mean'] * df['sample_size']).sum() / df['sample_size'].sum()
+
+    # Calculate weighted sum of variances and the correction for the mean differences
+    weighted_sum_of_variances = ((df['variance'] * (df['sample_size'] - 1)).sum() +
+                                 (df['sample_size'] * ((df['mean'] - grand_mean) ** 2)).sum())
+
+    # Calculate the combined variance
+    combined_variance = weighted_sum_of_variances / (df['sample_size'].sum() - len(df))
+
+    # Calculate the combined standard deviation
+    combined_std = combined_variance ** 0.5
+
+    return combined_std
+
 def generate_pandas_dataframe(file_path):
 
     adata = ad.read_h5ad(file_path)
@@ -93,9 +121,17 @@ def generate_pandas_dataframe(file_path):
     raw_counts_df = raw_counts_df.reset_index()
     
     merged_df = observations.merge(raw_counts_df, on = 'index')
+    print('merge dataframe')
     print(merged_df)
     print(merged_df.columns)
 
+    # subset to just healthy adults 
+    m_adult = merged_df[merged_df['age_group'] == 'adulthood']
+    m_healthy_adult = m_adult[m_adult['disease'] == 'normal']
+    print('make aggregated data')
+    aggregated_data = m_healthy_adult.groupby('cell_type').agg({col: ['group_mean', 'variance', 'sample_size'] for col in m_healthy_adult.select_dtypes(include=[np.number]).columns})
+    print(aggregated_data)
+    aggregated_data.to_csv(file_path[:-5] + '.csv')    
 
 if __name__ == '__main__':
   file_path = sys.argv[1] # .hda5 file is the first argument
