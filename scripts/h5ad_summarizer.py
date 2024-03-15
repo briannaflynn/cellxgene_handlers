@@ -140,7 +140,23 @@ def generate_pandas_dataframe(file_path):
     # m_adult = merged_df[merged_df['age_group'] == 'adulthood']
     # m_healthy_adult = m_adult[m_adult['disease'] == 'normal']
     print('make aggregated data')
-    aggregated_data = merged_df.groupby('cell_type').agg({col: ['mean', 'var', 'count'] for col in merged_df.select_dtypes(include=[np.number]).columns})
+    # aggregated_data = merged_df.groupby('cell_type').agg({col: ['mean', 'var', 'count'] for col in merged_df.select_dtypes(include=[np.number]).columns})
+    # print(aggregated_data)
+
+    df = merged_df
+    print(df.cell_type.value_counts())
+    # Select only numeric columns for aggregation
+    numeric_cols = df.select_dtypes(include=[np.number]).columns
+
+    # Define the aggregation operations with custom naming
+    aggregations = {col: [(col + '_mean', 'mean'), (col + '_var', 'var'), (col + '_count', 'count')] for col in numeric_cols}
+
+    # Aggregate data
+    aggregated_data = df.groupby('cell_type').agg(aggregations)
+
+    # Flatten the MultiIndex in columns
+    #aggregated_data.columns = ['_'.join(col) for col in aggregated_data.columns.values]
+
     print(aggregated_data)
     # aggregated_data.to_csv('aggregated_' + file_path[:-5] + '.csv')    
 
