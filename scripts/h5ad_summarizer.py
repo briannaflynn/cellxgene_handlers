@@ -4,6 +4,7 @@ import anndata as ad
 import pandas as pd
 import scipy
 import numpy as np
+import os
 
 '''Usage
 path to your h5ad file is supplied as argument
@@ -54,19 +55,6 @@ def summarize_h5ad(file_path):
             print(f['obs/cell_type_ontology_term_id/codes'][:])
             print(f['obs/cell_type/codes'][:])
             print(f['obs']['cell_type']['codes'].shape)
-
-def check_if_sparse(file_path):
-
-    adata = ad.read_h5ad(file_path)
-
-    print('Get adata layers')
-    print(adata.layers.keys())
-    is_sparse= False
-    if isinstance(adata.X, (scipy.sparse.csv_matrix, scipy.sparse.csc_matrix)):
-        is_sparse = True
-    print(f"Sparse matrix detected? {is_sparse}")
-
-import pandas as pd
 
 def calculate_combined_std(df):
     """
@@ -145,6 +133,9 @@ def generate_pandas_dataframe(file_path):
 
     df = merged_df
     print(df.cell_type.value_counts())
+
+    # get cell type strings and replace spaces with underscores
+    cell_types = [s.replace(" ", "_") for s in df.cell_type.unique()]
     # Select only numeric columns for aggregation
     numeric_cols = df.select_dtypes(include=[np.number]).columns
 
@@ -152,13 +143,29 @@ def generate_pandas_dataframe(file_path):
     aggregations = {col: [(col + '_mean', 'mean'), (col + '_var', 'var'), (col + '_count', 'count')] for col in numeric_cols}
 
     # Aggregate data
-    aggregated_data = df.groupby('cell_type').agg(aggregations)
+    aggregated_data = df.groupby('cell_type').agg(aggregations).reset_index()
 
     # Flatten the MultiIndex in columns
     #aggregated_data.columns = ['_'.join(col) for col in aggregated_data.columns.values]
 
     print(aggregated_data)
-    # aggregated_data.to_csv('aggregated_' + file_path[:-5] + '.csv')    
+    fname = file_path.split('/')[-1]
+    #aggregated_data.to_csv('../data/aggregated_' + fname[:-5] + '.csv') 
+
+    for c in df.cell_type.unique():
+        print(f'\n{c}\n')
+        ag_c = aggregated_data[aggregated_data['cell_type'] == c]
+        cell = c.replace(' ', '_')
+        dir_name = '../data/' + cell 
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+        
+        ag_c.to_csv(dir_name + '/' + fname + '_' + cell + '.csv')
+        
+        
+
+    # should also divide by cell type, making a new directory for each, write files to that directory
+
 
 if __name__ == '__main__':
   file_path = sys.argv[1] # .hda5 file is the first argument
