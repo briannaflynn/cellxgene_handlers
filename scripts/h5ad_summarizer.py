@@ -81,20 +81,32 @@ def calculate_combined_std(df):
 
     return combined_std
 
+def aggregate_and_modify_counts(df):
+    """
+    Aggregates numeric columns of a DataFrame by 'cell_type', computing mean, variance, and count for each.
+    Keeps the first '_count' column, renames it to 'sample_size', and drops the other '_count' columns.
+    """
+    
+    numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+
+    aggregations = {
+        col: [('_mean', 'mean'), ('_var', 'var')]
+        for col in numeric_cols
+    }
+
+    aggregated_data = df.groupby('cell_type').agg(aggregations).reset_index()
+    # Join MultiIndex column names into a single level
+    aggregated_data.columns = [''.join(col).strip() for col in aggregated_data.columns.values]
+
+    # get sample size from 
+    aggregated_data = aggregated_data.merge(df.cell_type.value_counts().reset_index(name='sample_size'), on = 'cell_type')
+
+    return aggregated_data
+
+
 def generate_pandas_dataframe(file_path):
 
     adata = ad.read_h5ad(file_path)
-    # print('adata layers')
-    # print(adata.layers.keys())
-    # if scipy.sparse.issparse(adata.X):
-    #     data_matrix = adata.X.toarray()
-    # else:
-    #     data_matrix = adata.X
-    # print(adata.obs.columns)
-    # df = pd.DataFrame(data_matrix, columns=adata.var_names, index=adata.obs_names)
-
-    # print(df)
-
     # observations only
     observations = adata.obs.reset_index()
     print(observations.columns)
@@ -104,14 +116,9 @@ def generate_pandas_dataframe(file_path):
     # Convert the raw counts matrix to a pandas DataFrame
     # The index will be the cell IDs (from adata.obs_names) and the columns will be the gene names (from adata.raw.var['feature_name'] or adata.raw.var_names)
     raw_counts_df = pd.DataFrame(raw_counts_matrix.toarray(),index=adata.obs_names, columns=adata.raw.var_names)
-    
-    # get the indices of the healthy adult cell types - if there are multiple cell types, create a loop
-    # filter by indices first
-    # then use aggregation tool (agg breaks when creating sparse matrix first, so have to do this in a different memory efficient way)
-
-    # raw_counts_df = raw_counts_df.astype({col: pd.SparseDtype("float", 0) for col in raw_counts_df.columns})
     raw_counts_df = raw_counts_df.reset_index()
 
+    # only healthy adults
     m_adult = observations[observations['age_group'] == 'adulthood']
     m_healthy_adult = m_adult[m_adult['disease'] == 'normal']
     healthy_adult_idx = m_healthy_adult['index'].to_list()
@@ -120,54 +127,39 @@ def generate_pandas_dataframe(file_path):
     print(filt_raw_counts_df)
     
     merged_df = observations.merge(filt_raw_counts_df, on = 'index')
-    # print('merge dataframe')
-    print(merged_df)
-    # print(merged_df.columns)
 
-    # # subset to just healthy adults 
-    # m_adult = merged_df[merged_df['age_group'] == 'adulthood']
-    # m_healthy_adult = m_adult[m_adult['disease'] == 'normal']
     print('make aggregated data')
-    # aggregated_data = merged_df.groupby('cell_type').agg({col: ['mean', 'var', 'count'] for col in merged_df.select_dtypes(include=[np.number]).columns})
-    # print(aggregated_data)
 
     df = merged_df
-    print(df.cell_type.value_counts())
 
     # get cell type strings and replace spaces with underscores
     cell_types = [s.replace(" ", "_") for s in df.cell_type.unique()]
-    # Select only numeric columns for aggregation
-    numeric_cols = df.select_dtypes(include=[np.number]).columns
 
-    # Define the aggregation operations with custom naming
-    aggregations = {col: [(col + '_mean', 'mean'), (col + '_var', 'var'), (col + '_count', 'count')] for col in numeric_cols}
+    aggregated_data = aggregate_and_modify_counts(df)
 
-    # Aggregate data
-    aggregated_data = df.groupby('cell_type').agg(aggregations).reset_index()
-
-    # Flatten the MultiIndex in columns
-    #aggregated_data.columns = ['_'.join(col) for col in aggregated_data.columns.values]
-
-    print(aggregated_data)
     fname = file_path.split('/')[-1]
-    #aggregated_data.to_csv('../data/aggregated_' + fname[:-5] + '.csv') 
+    aggregated_data.to_csv('../data/aggregated_' + fname[:-5] + '.csv') 
 
     for c in df.cell_type.unique():
         print(f'\n{c}\n')
         ag_c = aggregated_data[aggregated_data['cell_type'] == c]
+ 
         cell = c.replace(' ', '_')
         dir_name = '../data/' + cell 
         if not os.path.exists(dir_name):
             os.makedirs(dir_name)
+
+        print(ag_c)
         
         ag_c.to_csv(dir_name + '/' + fname + '_' + cell + '.csv')
         
-        
-
-    # should also divide by cell type, making a new directory for each, write files to that directory
-
 
 if __name__ == '__main__':
   file_path = sys.argv[1] # .hda5 file is the first argument
   #summarize_h5ad(file_path)
   generate_pandas_dataframe(file_path)
+
+
+###### TODO #########
+# write bash program to merge all text files into one, make sure that headers are the same 
+# compute mean of means
