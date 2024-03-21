@@ -26,7 +26,7 @@ def aggregate_and_modify_counts(df):
         for col in numeric_cols
     }
 
-    aggregated_data = df.groupby('cell_type').agg(aggregations).reset_index()
+    aggregated_data = df.groupby('cell_type', observed=False).agg(aggregations).reset_index()
     
     # Join MultiIndex column names into a single level, without this step, you won't be able to perform merges by column name 
     # '' allows you to combine without adding additional string
@@ -46,7 +46,6 @@ def generate_pandas_dataframe(file_path):
     adata = ad.read_h5ad(file_path)
 
     observations = adata.obs.reset_index()
-    print(observations.columns)
 
     # raw count data matrix
     raw_counts_matrix = adata.raw.X
@@ -71,9 +70,16 @@ def generate_pandas_dataframe(file_path):
         os.makedirs('../data/aggregated')
 
     aggregated_data.to_csv('../data/aggregated/aggregated_' + fname[:-5] + '.csv') 
+    
+    # just for visualization
+    ei = ("#" * 25) + " "
+    ej = " " + ("#" * 25)
+
+    print(f'\n{ei}'+f'aggregated data for file: {file_path}'+f'{ej}\n')
+    print(aggregated_data)
 
     for c in df.cell_type.unique():
-        print(f'\n{c}\n')
+        print(f'\n{ei}{c}{ej}\n')
         ag_c = aggregated_data[aggregated_data['cell_type'] == c]
         cell = c.replace(' ', '_')
         dir_name = '../data/' + cell 
