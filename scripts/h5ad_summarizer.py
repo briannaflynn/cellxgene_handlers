@@ -23,36 +23,11 @@ def summarize_h5ad(file_path):
         
         if 'raw/X/data' in f:
             print(file_path)
-            print('\nRaw data available\n')
+            print('\nRaw data available, generating tables\n')
             generate_pandas_dataframe(file_path)
         else:
             #print('\nNo raw data available\n')
             pass
-        """
-        # If the file follows the AnnData structure, it will have a 'X' dataset under some group that represents the main data matrix
-        print("\nSummary of 'X' dataset:")
-        data = f['X']['data']
-        print(f"Shape: {data.shape}")
-        print(f"Data type: {data.dtype}")
-
-        # print out the names of variables (genes, features) if they exist
-        if 'var' in f:
-        i    print('\nFirst 10 variable names in feature_name/categories')
-            print(f['var/feature_name/categories'][:])
-            print('\nFirst 10 gene IDs')
-            print(f['var/gene_ids'][:10])
-            genes = f['var']['gene_ids']
-            # Shape of gene_ids (19492,)
-            print(f'Shape of gene_ids {genes.shape}')
-
-        if 'obs' in f:
-            print(f['obs/cell_type/categories'].shape)
-            print(f['obs/nCount_RNA'][:10])
-            print(f['obs/cell_type_ontology_term_id/codes'][:])
-            print(f['obs/cell_type/codes'][:])
-            print(f['obs']['cell_type']['codes'].shape)
-        
-        """
 
 def aggregate_and_modify_counts(df):
     """
