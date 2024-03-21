@@ -17,9 +17,18 @@ def summarize_h5ad(file_path):
     Function for exploaratory analysis of anndata file structure
     """
     with h5py.File(file_path, 'r') as f:
-        print("File structure of:", file_path)
-        f.visit(print)  # Print the hierarchy of the file
-
+        
+        #print("File structure of:", file_path)
+        #f.visit(print)  # Print the hierarchy of the file
+        
+        if 'raw/X/data' in f:
+            print(file_path)
+            print('\nRaw data available\n')
+            generate_pandas_dataframe(file_path)
+        else:
+            #print('\nNo raw data available\n')
+            pass
+        """
         # If the file follows the AnnData structure, it will have a 'X' dataset under some group that represents the main data matrix
         print("\nSummary of 'X' dataset:")
         data = f['X']['data']
@@ -28,7 +37,7 @@ def summarize_h5ad(file_path):
 
         # print out the names of variables (genes, features) if they exist
         if 'var' in f:
-            print('\nFirst 10 variable names in feature_name/categories')
+        i    print('\nFirst 10 variable names in feature_name/categories')
             print(f['var/feature_name/categories'][:])
             print('\nFirst 10 gene IDs')
             print(f['var/gene_ids'][:10])
@@ -42,6 +51,8 @@ def summarize_h5ad(file_path):
             print(f['obs/cell_type_ontology_term_id/codes'][:])
             print(f['obs/cell_type/codes'][:])
             print(f['obs']['cell_type']['codes'].shape)
+        
+        """
 
 def aggregate_and_modify_counts(df):
     """
@@ -116,7 +127,8 @@ def generate_pandas_dataframe(file_path):
         ag_c.to_csv(dir_name + '/' + fname + '_' + cell + '.csv')
         
 file_path = sys.argv[1] # .hda5 file is the first argument
-generate_pandas_dataframe(file_path)
+summarize_h5ad(file_path)
+#generate_pandas_dataframe(file_path)
 
 ###### TODO #########
 # write bash program to merge all text files into one, make sure that headers are the same 
