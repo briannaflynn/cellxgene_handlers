@@ -12,23 +12,6 @@ i.e.
 python h5ad_summarizer.py my_dataset.h5ad
 '''
 
-def summarize_h5ad(file_path):
-    """
-    Function for exploaratory analysis of anndata file structure
-    """
-    with h5py.File(file_path, 'r') as f:
-        
-        #print("File structure of:", file_path)
-        #f.visit(print)  # Print the hierarchy of the file
-        
-        if 'raw/X/data' in f:
-            print(file_path)
-            print('\nRaw data available, generating tables\n')
-            generate_pandas_dataframe(file_path)
-        else:
-            #print('\nNo raw data available\n')
-            pass
-
 def aggregate_and_modify_counts(df):
     """
     Aggregates numeric columns of a DataFrame by 'cell_type', computing mean and variance for each
@@ -101,9 +84,26 @@ def generate_pandas_dataframe(file_path):
         
         ag_c.to_csv(dir_name + '/' + fname + '_' + cell + '.csv')
         
+def process_h5ad(file_path, summarize_file_structure=False):
+    """
+    Function for exploaratory analysis of anndata file structure
+    """
+    with h5py.File(file_path, 'r') as f:
+        
+        if summarize_file_structure:
+            print("File structure of: ", file_path)
+            f.visit(print)
+
+        if 'raw/X/data' in f:
+            print(file_path)
+            print('\nRaw data available, generating tables\n')
+            generate_pandas_dataframe(file_path)
+        else:
+            pass
+
+
 file_path = sys.argv[1] # .hda5 file is the first argument
-summarize_h5ad(file_path)
-#generate_pandas_dataframe(file_path)
+process_h5ad(file_path)
 
 ###### TODO #########
 # write bash program to merge all text files into one, make sure that headers are the same 
