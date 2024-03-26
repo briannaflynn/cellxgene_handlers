@@ -12,6 +12,34 @@ i.e.
 python h5ad_summarizer.py my_dataset.h5ad
 '''
 
+def read_h5ad(file_path):
+
+    adata = ad.read_h5ad(file_path)
+    observations = adata.obs.reset_index()
+    
+    return observations
+
+def count_column_frequencies(files, output_filename = '../data/column_frequencies.csv'):
+    
+    column_frequencies = {}
+    
+    for f in files:
+        print(f)
+        df = read_h5ad(f) 
+        for column in df.columns:
+            if column in column_frequencies:
+                column_frequencies[column] += 1
+            else:
+                column_frequencies[column] = 1
+
+    freq_df = pd.DataFrame(list(column_frequencies.items()), columns=['colname','count'])
+    freq_df.sort_values(by = 'count', ascending=False, inplace=True)
+    print(freq_df)
+    freq_df.to_csv(output_filename, index=False)
+
+    return column_frequencies
+
+
 def aggregate_and_modify_counts(df):
     """
     Aggregates numeric columns of a DataFrame by 'cell_type', computing mean and variance for each
@@ -46,7 +74,27 @@ def generate_pandas_dataframe(file_path):
     adata = ad.read_h5ad(file_path)
 
     observations = adata.obs.reset_index()
+    print(observations.columns)
+ 
+    # Check for columns containing 'age' and 'disease'
+    age_columns = [col for col in observations.columns if 'age' in col.lower()]
+    disease_columns = [col for col in observations.columns if 'disease' in col.lower()]
 
+    # Ensure the assumption that columns contain 'age' and 'disease'
+    if not age_columns:
+        print("No columns containing 'age' were found.")
+        return
+    if not disease_columns:
+        print("No columns containing 'disease' were found.")
+        return
+
+    # If columns are found, print them
+    print(f"Columns containing 'age': {age_columns}")
+    print(f"Columns containing 'disease': {disease_columns}")
+
+    sys.exit()
+    
+    print(observations.development_stage.value_counts())
     # raw count data matrix
     raw_counts_matrix = adata.raw.X
 
@@ -107,9 +155,19 @@ def process_h5ad(file_path, summarize_file_structure=False):
         else:
             pass
 
+def read_single_col_file(list_file):
+    
+    with open(list_file, 'r') as file:
+        lines = [line.strip() for line in file.readlines()]
 
-file_path = sys.argv[1] # .hda5 file is the first argument
-process_h5ad(file_path)
+    return lines
+
+#file_path = sys.argv[1] # .hda5 file is the first argument
+#process_h5ad(file_path)
+
+h5ad_text_files = sys.argv[1]
+file_list = read_single_col_file(h5ad_text_files)
+count_column_frequencies(file_list)
 
 ###### TODO #########
 # write bash program to merge all text files into one, make sure that headers are the same 
