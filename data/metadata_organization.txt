@@ -1,0 +1,3 @@
+datasets:list[ dict( dataset_id & developmental_stage:list:dict[label] & disease:list:dict[label]==normal & organism:list:dict[label]==Homo sapiens & raw_data_location), dict(n)]
+
+# datasets is a dictionary whose value is a list of dictionaries. In each of the dictionaries of this list (where the list could contain only one or more than one dict for all datasets in each collection ID directory) there are a commmon set of keys. The keys that are most relevant to me right now are the ones listed in the above notation, dataset_id, developmental stage, disease, organism and raw data location. 
