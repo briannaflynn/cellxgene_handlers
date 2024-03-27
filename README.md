@@ -51,5 +51,7 @@ Collections/
 Contains expression data from both humans and mice
 
 
+Consolidated tables for identifying collections and datasets of interest can be found in
 
+```./data/aggregated_metadata_tables/```
    
