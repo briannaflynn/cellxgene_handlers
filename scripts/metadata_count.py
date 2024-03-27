@@ -42,26 +42,26 @@ class MetadataProcessor:
 
         return levels_dfs
 
-    def aggregate_datasets_info(self, json_file_paths, cell_type = False, verbose = True, output_csv_path='../data/aggregated_metadata_json.csv'):
+    def aggregate_datasets_info(self, json_file_paths, cell_type = True, verbose = True, output_csv_path='../data/aggregated_metadata_json_with_celltype.csv'):
 
-        def fill_missing_values(df):
-            
-            columns_to_fill = ['development_stage', 'disease', 'organism']
-            last_valid_values = {col: None for col in columns_to_fill}
+        def fill_missing_values(df, column_name:str):
 
-            for i, row in df.iterrows():
-                for col in columns_to_fill:
-                    if pd.notnull(row[col]) and row[col].strip():
-                        last_valid_values[col] = row[col]
-                    elif last_valid_values[col] is not None:
-                        df.at[i, col] = last_valid_values[col]
+            last_valid_value = None
+            for i in range(len(df)):
+                if pd.notnull(df.at[i, column_name]) and df.at[i, column_name].strip():
+                    last_valid_value = df.at[i, column_name]
+                elif last_valid_value is not None:
+                    df.at[i, column_name] = last_valid_value
 
                 if i < len(df) - 1 and df.at[i, 'dataset_id'] != df.at[i + 1, 'dataset_id']:
-                    last_valid_values = {col: None for col in columns_to_fill}
+                    last_valid_value = None
 
             return df
-
+       
         aggregated_data = []
+        columns_to_fill = ['development_stage', 'disease', 'organism']
+        if cell_type:
+            columns_to_fill.append('cell_type')
 
         for file_path in json_file_paths:
             with open(file_path, 'r') as file:
@@ -71,9 +71,8 @@ class MetadataProcessor:
                 print(file_path)
                 for dataset in data['datasets']:
                     
-                    print('\n', dataset, '\n')
-
                     dataset_id = dataset['dataset_id']
+
                     raw_data_location = dataset['raw_data_location']
 
                     if cell_type:
@@ -120,8 +119,11 @@ class MetadataProcessor:
                                 'raw_data_location':raw_data_location
                             })
 
-        df = fill_missing_values(pd.DataFrame(aggregated_data))
-        
+        df = pd.DataFrame(aggregated_data)
+
+        for column in columns_to_fill:
+            df = fill_missing_values(df, column)
+
         if verbose:
             print(df)
 
@@ -132,8 +134,5 @@ class MetadataProcessor:
 data_processor = MetadataProcessor()
 json_file_paths = data_processor.read_single_column_file_to_list('../data/metadata_files.txt')
 
-# data_processor.aggregate_datasets_info(json_file_paths)
-# data_processor.aggregate_datasets_info(json_file_paths, cell_type=True, output_csv_path = '../data/aggregated_metadata_json_with_celltype.csv')
-df = data_processor.aggregate_datasets_info(['/work/projects/BioITeam/data/CELLxGENE/collections/283d65eb-dd53-496d-adb7-7570c7caa443/283d65eb-dd53-496d-adb7-7570c7caa443_metadata.json'],cell_type = True, output_csv_path='test_missing_celltypes.csv')
-
-#print(df[df['dataset_id']=='3a7f3ab4-a280-4b3b-b2c0-6dd05614a78c'])
+data_no_celltypes = data_processor.aggregate_datasets_info(json_file_paths, cell_type=False, output_csv_path='aggregated_metadata_json.csv')
+df = data_processor.aggregate_datasets_info(json_file_paths)
