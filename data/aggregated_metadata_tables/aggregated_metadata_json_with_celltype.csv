@@ -1772,7 +1772,7 @@ eb735cc9-d0a7-48fa-b255-db726bf365af,c2a461b1-0c15-4047-9fcb-1f966fe55100,unknow
 28e9d721-6816-48a2-8d0b-43bf0b0c0ebc,6e00ccf7-0749-46ef-a999-dba785630d52,newborn human stage,anencephaly,Homo sapiens,raw.X,type II pneumocyte
 31937775-0602-4e52-a799-b6acdd2bac2e,e9a7ead8-c994-4178-b4e4-db951f1bd31a,20 month-old stage and over,normal,Mus musculus,raw.X,T cell
 31937775-0602-4e52-a799-b6acdd2bac2e,e9a7ead8-c994-4178-b4e4-db951f1bd31a,24 weeks,normal,Mus musculus,raw.X,astrocyte
-31937775-0602-4e52-a799-b6acdd2bac2e,e9a7ead8-c994-4178-b4e4-db951f1bd31a,4 weeks,normal,Mus musculus,raw.X,cell
+,,,,,,
 31937775-0602-4e52-a799-b6acdd2bac2e,e9a7ead8-c994-4178-b4e4-db951f1bd31a,4 weeks,normal,Mus musculus,raw.X,endothelial cell
 31937775-0602-4e52-a799-b6acdd2bac2e,e9a7ead8-c994-4178-b4e4-db951f1bd31a,4 weeks,normal,Mus musculus,raw.X,inhibitory interneuron
 31937775-0602-4e52-a799-b6acdd2bac2e,e9a7ead8-c994-4178-b4e4-db951f1bd31a,4 weeks,normal,Mus musculus,raw.X,macrophage
@@ -1785,7 +1785,7 @@ eb735cc9-d0a7-48fa-b255-db726bf365af,c2a461b1-0c15-4047-9fcb-1f966fe55100,unknow
 31937775-0602-4e52-a799-b6acdd2bac2e,e9a7ead8-c994-4178-b4e4-db951f1bd31a,4 weeks,normal,Mus musculus,raw.X,vascular leptomeningeal cell
 31937775-0602-4e52-a799-b6acdd2bac2e,cb34cb2d-aee2-4272-86ed-f8e1af870e52,20 month-old stage and over,normal,Mus musculus,raw.X,T cell
 31937775-0602-4e52-a799-b6acdd2bac2e,cb34cb2d-aee2-4272-86ed-f8e1af870e52,24 weeks,normal,Mus musculus,raw.X,astrocyte
-31937775-0602-4e52-a799-b6acdd2bac2e,cb34cb2d-aee2-4272-86ed-f8e1af870e52,4 weeks,normal,Mus musculus,raw.X,cell
+,,,,,,
 31937775-0602-4e52-a799-b6acdd2bac2e,cb34cb2d-aee2-4272-86ed-f8e1af870e52,4 weeks,normal,Mus musculus,raw.X,endothelial cell
 31937775-0602-4e52-a799-b6acdd2bac2e,cb34cb2d-aee2-4272-86ed-f8e1af870e52,4 weeks,normal,Mus musculus,raw.X,inhibitory interneuron
 31937775-0602-4e52-a799-b6acdd2bac2e,cb34cb2d-aee2-4272-86ed-f8e1af870e52,4 weeks,normal,Mus musculus,raw.X,macrophage
@@ -1798,7 +1798,7 @@ eb735cc9-d0a7-48fa-b255-db726bf365af,c2a461b1-0c15-4047-9fcb-1f966fe55100,unknow
 31937775-0602-4e52-a799-b6acdd2bac2e,cb34cb2d-aee2-4272-86ed-f8e1af870e52,4 weeks,normal,Mus musculus,raw.X,vascular leptomeningeal cell
 31937775-0602-4e52-a799-b6acdd2bac2e,c20f1b97-0d47-4192-af0a-1e012621f8d9,20 month-old stage and over,normal,Mus musculus,raw.X,T cell
 31937775-0602-4e52-a799-b6acdd2bac2e,c20f1b97-0d47-4192-af0a-1e012621f8d9,24 weeks,normal,Mus musculus,raw.X,astrocyte
-31937775-0602-4e52-a799-b6acdd2bac2e,c20f1b97-0d47-4192-af0a-1e012621f8d9,4 weeks,normal,Mus musculus,raw.X,cell
+,,,,,,
 31937775-0602-4e52-a799-b6acdd2bac2e,c20f1b97-0d47-4192-af0a-1e012621f8d9,4 weeks,normal,Mus musculus,raw.X,endothelial cell
 31937775-0602-4e52-a799-b6acdd2bac2e,c20f1b97-0d47-4192-af0a-1e012621f8d9,4 weeks,normal,Mus musculus,raw.X,inhibitory interneuron
 31937775-0602-4e52-a799-b6acdd2bac2e,c20f1b97-0d47-4192-af0a-1e012621f8d9,4 weeks,normal,Mus musculus,raw.X,macrophage
@@ -1811,7 +1811,7 @@ eb735cc9-d0a7-48fa-b255-db726bf365af,c2a461b1-0c15-4047-9fcb-1f966fe55100,unknow
 31937775-0602-4e52-a799-b6acdd2bac2e,c20f1b97-0d47-4192-af0a-1e012621f8d9,4 weeks,normal,Mus musculus,raw.X,vascular leptomeningeal cell
 31937775-0602-4e52-a799-b6acdd2bac2e,3bbb6cf9-72b9-41be-b568-656de6eb18b5,20 month-old stage and over,normal,Mus musculus,raw.X,T cell
 31937775-0602-4e52-a799-b6acdd2bac2e,3bbb6cf9-72b9-41be-b568-656de6eb18b5,4 weeks,normal,Mus musculus,raw.X,astrocyte
-31937775-0602-4e52-a799-b6acdd2bac2e,3bbb6cf9-72b9-41be-b568-656de6eb18b5,4 weeks,normal,Mus musculus,raw.X,cell
+,,,,,,
 31937775-0602-4e52-a799-b6acdd2bac2e,3bbb6cf9-72b9-41be-b568-656de6eb18b5,4 weeks,normal,Mus musculus,raw.X,endothelial cell
 31937775-0602-4e52-a799-b6acdd2bac2e,3bbb6cf9-72b9-41be-b568-656de6eb18b5,4 weeks,normal,Mus musculus,raw.X,inhibitory interneuron
 31937775-0602-4e52-a799-b6acdd2bac2e,3bbb6cf9-72b9-41be-b568-656de6eb18b5,4 weeks,normal,Mus musculus,raw.X,macrophage
@@ -5045,14 +5045,14 @@ fdebfda9-bb9a-4b4b-97e5-651097ea07b0,f0939ae1-0877-42b2-bc0e-3249a42c2c0f,58-yea
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,f0939ae1-0877-42b2-bc0e-3249a42c2c0f,58-year-old human stage,normal,Homo sapiens,X,thalamic excitatory neuron
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,f0939ae1-0877-42b2-bc0e-3249a42c2c0f,58-year-old human stage,normal,Homo sapiens,X,vip GABAergic cortical interneuron
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,e8d1c9cc-29e6-4b51-90f1-29e75de6098f,29-year-old human stage,normal,Homo sapiens,X,astrocyte
-fdebfda9-bb9a-4b4b-97e5-651097ea07b0,e8d1c9cc-29e6-4b51-90f1-29e75de6098f,42-year-old human stage,normal,Homo sapiens,X,cell
+,,,,,,
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,e8d1c9cc-29e6-4b51-90f1-29e75de6098f,58-year-old human stage,normal,Homo sapiens,X,endothelial cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,e8d1c9cc-29e6-4b51-90f1-29e75de6098f,58-year-old human stage,normal,Homo sapiens,X,macroglial cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,e8d1c9cc-29e6-4b51-90f1-29e75de6098f,58-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,e8d1c9cc-29e6-4b51-90f1-29e75de6098f,58-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,e8d1c9cc-29e6-4b51-90f1-29e75de6098f,58-year-old human stage,normal,Homo sapiens,X,vascular leptomeningeal cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,d6f3c096-a6f0-4e67-91ad-514bd286f13e,29-year-old human stage,normal,Homo sapiens,X,astrocyte
-fdebfda9-bb9a-4b4b-97e5-651097ea07b0,d6f3c096-a6f0-4e67-91ad-514bd286f13e,42-year-old human stage,normal,Homo sapiens,X,cell
+,,,,,,
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,d6f3c096-a6f0-4e67-91ad-514bd286f13e,58-year-old human stage,normal,Homo sapiens,X,endothelial cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,d6f3c096-a6f0-4e67-91ad-514bd286f13e,58-year-old human stage,normal,Homo sapiens,X,macroglial cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,d6f3c096-a6f0-4e67-91ad-514bd286f13e,58-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
@@ -5068,7 +5068,7 @@ fdebfda9-bb9a-4b4b-97e5-651097ea07b0,a12d95f7-480f-4c8a-bf24-302175b27bc4,58-yea
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,a12d95f7-480f-4c8a-bf24-302175b27bc4,58-year-old human stage,normal,Homo sapiens,X,sst GABAergic cortical interneuron
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,a12d95f7-480f-4c8a-bf24-302175b27bc4,58-year-old human stage,normal,Homo sapiens,X,vip GABAergic cortical interneuron
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,8f83f50e-c091-4095-8456-a7acf6c9d423,29-year-old human stage,normal,Homo sapiens,X,astrocyte
-fdebfda9-bb9a-4b4b-97e5-651097ea07b0,8f83f50e-c091-4095-8456-a7acf6c9d423,42-year-old human stage,normal,Homo sapiens,X,cell
+,,,,,,
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,8f83f50e-c091-4095-8456-a7acf6c9d423,58-year-old human stage,normal,Homo sapiens,X,endothelial cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,8f83f50e-c091-4095-8456-a7acf6c9d423,58-year-old human stage,normal,Homo sapiens,X,macroglial cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,8f83f50e-c091-4095-8456-a7acf6c9d423,58-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
@@ -5126,7 +5126,7 @@ fdebfda9-bb9a-4b4b-97e5-651097ea07b0,33da10b0-9c1d-4c82-9b14-c67cdcf9fae5,58-yea
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,33da10b0-9c1d-4c82-9b14-c67cdcf9fae5,58-year-old human stage,normal,Homo sapiens,X,sst GABAergic cortical interneuron
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,33da10b0-9c1d-4c82-9b14-c67cdcf9fae5,58-year-old human stage,normal,Homo sapiens,X,vip GABAergic cortical interneuron
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,0500e103-38db-456d-9c3f-b96b8a693ab2,29-year-old human stage,normal,Homo sapiens,X,astrocyte
-fdebfda9-bb9a-4b4b-97e5-651097ea07b0,0500e103-38db-456d-9c3f-b96b8a693ab2,42-year-old human stage,normal,Homo sapiens,X,cell
+,,,,,,
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,0500e103-38db-456d-9c3f-b96b8a693ab2,58-year-old human stage,normal,Homo sapiens,X,endothelial cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,0500e103-38db-456d-9c3f-b96b8a693ab2,58-year-old human stage,normal,Homo sapiens,X,macroglial cell
 fdebfda9-bb9a-4b4b-97e5-651097ea07b0,0500e103-38db-456d-9c3f-b96b8a693ab2,58-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
@@ -7472,15 +7472,15 @@ e2c257e7-6f79-487c-b81c-39451cd4ab3c,4887f277-b45c-49a6-8c8a-de89e75dc032,Carneg
 32f2fd23-ec74-486f-9544-e5b2f41725f5,9ddea8d9-cc4c-420a-90f6-880996f808d4,human early adulthood stage,normal,Homo sapiens,raw.X,myeloid cell
 32f2fd23-ec74-486f-9544-e5b2f41725f5,9ddea8d9-cc4c-420a-90f6-880996f808d4,human early adulthood stage,normal,Homo sapiens,raw.X,native cell
 32f2fd23-ec74-486f-9544-e5b2f41725f5,9ddea8d9-cc4c-420a-90f6-880996f808d4,human early adulthood stage,normal,Homo sapiens,raw.X,stromal cell of ovary
-32f2fd23-ec74-486f-9544-e5b2f41725f5,9ddea8d9-cc4c-420a-90f6-880996f808d4,human early adulthood stage,normal,Homo sapiens,raw.X,supporting cell
+,,,,,,
 32f2fd23-ec74-486f-9544-e5b2f41725f5,9ddea8d9-cc4c-420a-90f6-880996f808d4,human early adulthood stage,normal,Homo sapiens,raw.X,uterine smooth muscle cell
 32f2fd23-ec74-486f-9544-e5b2f41725f5,968885c5-b652-48d9-9006-c34b5fc1c07a,23-year-old human stage,normal,Homo sapiens,raw.X,ciliated cell
 32f2fd23-ec74-486f-9544-e5b2f41725f5,968885c5-b652-48d9-9006-c34b5fc1c07a,26-year-old human stage,normal,Homo sapiens,raw.X,epithelial cell
 32f2fd23-ec74-486f-9544-e5b2f41725f5,968885c5-b652-48d9-9006-c34b5fc1c07a,29-year-old human stage,normal,Homo sapiens,raw.X,glandular epithelial cell
 32f2fd23-ec74-486f-9544-e5b2f41725f5,968885c5-b652-48d9-9006-c34b5fc1c07a,37-year-old human stage,normal,Homo sapiens,raw.X,glandular epithelial cell
 32f2fd23-ec74-486f-9544-e5b2f41725f5,968885c5-b652-48d9-9006-c34b5fc1c07a,human early adulthood stage,normal,Homo sapiens,raw.X,glandular epithelial cell
-32f2fd23-ec74-486f-9544-e5b2f41725f5,76150f40-1989-4977-9e23-696e72d59d9e,28-year-old human stage,normal,Homo sapiens,raw.X,cell in vitro
-32f2fd23-ec74-486f-9544-e5b2f41725f5,76150f40-1989-4977-9e23-696e72d59d9e,unknown,normal,Homo sapiens,raw.X,cell in vitro
+,,,,,,
+,,,,,,
 2b02dff7-e427-4cdc-96fb-c0f354c099aa,36c867a7-be10-4e69-9b39-5de12b0af6da,human early adulthood stage,Crohn ileitis,Homo sapiens,raw.X,B cell
 2b02dff7-e427-4cdc-96fb-c0f354c099aa,36c867a7-be10-4e69-9b39-5de12b0af6da,human early adulthood stage,Crohn ileitis,Homo sapiens,raw.X,alpha-beta T cell
 2b02dff7-e427-4cdc-96fb-c0f354c099aa,36c867a7-be10-4e69-9b39-5de12b0af6da,human early adulthood stage,Crohn ileitis,Homo sapiens,raw.X,endothelial cell
@@ -10626,7 +10626,7 @@ d17249d2-0e6e-4500-abb8-e6c93fa1ac6f,015c230d-650c-4527-870d-8a805849a382,60-yea
 661a402a-2a5a-4c71-9b05-b346c57bc451,be46dfdc-0f99-4731-8957-64ca37364985,Theiler stage 22,normal,Mus musculus,raw.X,mesenchymal cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,be46dfdc-0f99-4731-8957-64ca37364985,Theiler stage 24,normal,Mus musculus,raw.X,mesothelial cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,be46dfdc-0f99-4731-8957-64ca37364985,Theiler stage 26,normal,Mus musculus,raw.X,ovarian surface epithelial cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,be46dfdc-0f99-4731-8957-64ca37364985,Theiler stage 27,normal,Mus musculus,raw.X,supporting cell
+,,,,,,
 661a402a-2a5a-4c71-9b05-b346c57bc451,ac2fea99-ce08-4fca-8d03-a19f37bf21a3,10th week post-fertilization human stage,normal,Homo sapiens,raw.X,B cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,ac2fea99-ce08-4fca-8d03-a19f37bf21a3,11th week post-fertilization human stage,normal,Homo sapiens,raw.X,common myeloid progenitor
 661a402a-2a5a-4c71-9b05-b346c57bc451,ac2fea99-ce08-4fca-8d03-a19f37bf21a3,12th week post-fertilization human stage,normal,Homo sapiens,raw.X,conventional dendritic cell
@@ -10656,7 +10656,7 @@ d17249d2-0e6e-4500-abb8-e6c93fa1ac6f,015c230d-650c-4527-870d-8a805849a382,60-yea
 661a402a-2a5a-4c71-9b05-b346c57bc451,a13bda79-9134-46c9-9ed1-a2858be9aafe,Theiler stage 21,normal,Mus musculus,raw.X,neural cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,a13bda79-9134-46c9-9ed1-a2858be9aafe,Theiler stage 21,normal,Mus musculus,raw.X,pericyte
 661a402a-2a5a-4c71-9b05-b346c57bc451,a13bda79-9134-46c9-9ed1-a2858be9aafe,Theiler stage 21,normal,Mus musculus,raw.X,skeletal muscle fiber
-661a402a-2a5a-4c71-9b05-b346c57bc451,a13bda79-9134-46c9-9ed1-a2858be9aafe,Theiler stage 21,normal,Mus musculus,raw.X,supporting cell
+,,,,,,
 661a402a-2a5a-4c71-9b05-b346c57bc451,5695d556-974e-4d92-9e99-5f61b8695313,4-7 days,normal,Mus musculus,raw.X,female germ cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,5695d556-974e-4d92-9e99-5f61b8695313,Theiler stage 17,normal,Mus musculus,raw.X,male germ cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,5695d556-974e-4d92-9e99-5f61b8695313,Theiler stage 19,normal,Mus musculus,raw.X,oocyte
@@ -10678,7 +10678,7 @@ d17249d2-0e6e-4500-abb8-e6c93fa1ac6f,015c230d-650c-4527-870d-8a805849a382,60-yea
 661a402a-2a5a-4c71-9b05-b346c57bc451,535e9336-2d8d-43c3-944d-bcbebe20df8a,Carnegie stage 17,normal,Homo sapiens,raw.X,mural cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,535e9336-2d8d-43c3-944d-bcbebe20df8a,Carnegie stage 19,normal,Homo sapiens,raw.X,neural cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,535e9336-2d8d-43c3-944d-bcbebe20df8a,Carnegie stage 19,normal,Homo sapiens,raw.X,somatic cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,535e9336-2d8d-43c3-944d-bcbebe20df8a,Carnegie stage 19,normal,Homo sapiens,raw.X,supporting cell
+,,,,,,
 661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,10th week post-fertilization human stage,normal,Homo sapiens,raw.X,Leydig cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,11th week post-fertilization human stage,normal,Homo sapiens,raw.X,Sertoli cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,12th week post-fertilization human stage,normal,Homo sapiens,raw.X,granulosa cell
@@ -10687,15 +10687,15 @@ d17249d2-0e6e-4500-abb8-e6c93fa1ac6f,015c230d-650c-4527-870d-8a805849a382,60-yea
 661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,15th week post-fertilization human stage,normal,Homo sapiens,raw.X,mesothelial cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,16th week post-fertilization human stage,normal,Homo sapiens,raw.X,ovarian surface epithelial cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,17th week post-fertilization human stage,normal,Homo sapiens,raw.X,somatic cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,18th week post-fertilization human stage,normal,Homo sapiens,raw.X,supporting cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,19th week post-fertilization human stage,normal,Homo sapiens,raw.X,supporting cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,21st week post-fertilization human stage,normal,Homo sapiens,raw.X,supporting cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,9th week post-fertilization human stage,normal,Homo sapiens,raw.X,supporting cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,Carnegie stage 17,normal,Homo sapiens,raw.X,supporting cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,Carnegie stage 18,normal,Homo sapiens,raw.X,supporting cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,Carnegie stage 19,normal,Homo sapiens,raw.X,supporting cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,Carnegie stage 21,normal,Homo sapiens,raw.X,supporting cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,4fb330ab-2d74-4649-b58f-7ffef457efdf,Carnegie stage 23,normal,Homo sapiens,raw.X,supporting cell
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
 661a402a-2a5a-4c71-9b05-b346c57bc451,290d50c7-7158-4198-acf5-6d4b624fd3dc,10th week post-fertilization human stage,normal,Homo sapiens,raw.X,germ cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,290d50c7-7158-4198-acf5-6d4b624fd3dc,11th week post-fertilization human stage,normal,Homo sapiens,raw.X,male germ cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,290d50c7-7158-4198-acf5-6d4b624fd3dc,12th week post-fertilization human stage,normal,Homo sapiens,raw.X,oocyte
@@ -10726,7 +10726,7 @@ d17249d2-0e6e-4500-abb8-e6c93fa1ac6f,015c230d-650c-4527-870d-8a805849a382,60-yea
 661a402a-2a5a-4c71-9b05-b346c57bc451,18e2a8c5-33f7-455e-a58a-b2ba6921db27,Carnegie stage 18,normal,Homo sapiens,raw.X,ovarian surface epithelial cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,18e2a8c5-33f7-455e-a58a-b2ba6921db27,Carnegie stage 21,normal,Homo sapiens,raw.X,smooth muscle cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,18e2a8c5-33f7-455e-a58a-b2ba6921db27,Carnegie stage 23,normal,Homo sapiens,raw.X,somatic cell
-661a402a-2a5a-4c71-9b05-b346c57bc451,18e2a8c5-33f7-455e-a58a-b2ba6921db27,Carnegie stage 23,normal,Homo sapiens,raw.X,supporting cell
+,,,,,,
 661a402a-2a5a-4c71-9b05-b346c57bc451,12967895-3d58-4e93-be2c-4e1bcf4388d5,4-7 days,normal,Mus musculus,raw.X,Leydig cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,12967895-3d58-4e93-be2c-4e1bcf4388d5,Theiler stage 19,normal,Mus musculus,raw.X,Sertoli cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,12967895-3d58-4e93-be2c-4e1bcf4388d5,Theiler stage 20,normal,Mus musculus,raw.X,endothelial cell
@@ -10742,7 +10742,7 @@ d17249d2-0e6e-4500-abb8-e6c93fa1ac6f,015c230d-650c-4527-870d-8a805849a382,60-yea
 661a402a-2a5a-4c71-9b05-b346c57bc451,12967895-3d58-4e93-be2c-4e1bcf4388d5,Theiler stage 27,normal,Mus musculus,raw.X,neural cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,12967895-3d58-4e93-be2c-4e1bcf4388d5,Theiler stage 27,normal,Mus musculus,raw.X,ovarian surface epithelial cell
 661a402a-2a5a-4c71-9b05-b346c57bc451,12967895-3d58-4e93-be2c-4e1bcf4388d5,Theiler stage 27,normal,Mus musculus,raw.X,skeletal muscle fiber
-661a402a-2a5a-4c71-9b05-b346c57bc451,12967895-3d58-4e93-be2c-4e1bcf4388d5,Theiler stage 27,normal,Mus musculus,raw.X,supporting cell
+,,,,,,
 6b701826-37bb-4356-9792-ff41fc4c3161,9d8e5dca-03a3-457d-b7fb-844c75735c83,18-year-old human stage,normal,Homo sapiens,raw.X,Schwann cell
 6b701826-37bb-4356-9792-ff41fc4c3161,9d8e5dca-03a3-457d-b7fb-844c75735c83,21-year-old human stage,normal,Homo sapiens,raw.X,endothelial cell
 6b701826-37bb-4356-9792-ff41fc4c3161,9d8e5dca-03a3-457d-b7fb-844c75735c83,26-year-old human stage,normal,Homo sapiens,raw.X,endothelial cell of lymphatic vessel
@@ -12819,7 +12819,7 @@ fcb3d1c1-03d2-41ac-8229-458e072b7a1c,a1b9c51e-a408-4f7f-bccb-abefe20ae2a5,human 
 72d37bc9-76cc-442d-9131-da0e273862db,72eb2332-b308-4014-8d25-95233a9aff1e,Theiler stage 28,normal,Mus musculus,X,oligodendrocyte
 72d37bc9-76cc-442d-9131-da0e273862db,72eb2332-b308-4014-8d25-95233a9aff1e,Theiler stage 28,normal,Mus musculus,X,unipolar brush cell
 296237e2-393d-4e31-b590-b03f74ac5070,49e4ffcc-5444-406d-bdee-577127404ba8,2 month-old stage,endocrine pancreas disorder,Mus musculus,raw.X,Schwann cell
-296237e2-393d-4e31-b590-b03f74ac5070,49e4ffcc-5444-406d-bdee-577127404ba8,2 weeks,normal,Mus musculus,raw.X,cell
+,,,,,,
 296237e2-393d-4e31-b590-b03f74ac5070,49e4ffcc-5444-406d-bdee-577127404ba8,20 month-old stage and over,type 1 diabetes mellitus,Mus musculus,raw.X,endothelial cell
 296237e2-393d-4e31-b590-b03f74ac5070,49e4ffcc-5444-406d-bdee-577127404ba8,3 month-old stage,type 2 diabetes mellitus,Mus musculus,raw.X,hematopoietic cell
 296237e2-393d-4e31-b590-b03f74ac5070,49e4ffcc-5444-406d-bdee-577127404ba8,4 month-old stage,type 2 diabetes mellitus,Mus musculus,raw.X,native cell
