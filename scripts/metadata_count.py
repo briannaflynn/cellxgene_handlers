@@ -70,6 +70,8 @@ class MetadataProcessor:
                 print(f"Processing {collection_id}")
                 print(file_path)
                 for dataset in data['datasets']:
+                    
+                    print('\n', dataset, '\n')
 
                     dataset_id = dataset['dataset_id']
                     raw_data_location = dataset['raw_data_location']
@@ -125,8 +127,13 @@ class MetadataProcessor:
 
         df.to_csv(output_csv_path, index=False)
 
+        return df
+
 data_processor = MetadataProcessor()
 json_file_paths = data_processor.read_single_column_file_to_list('../data/metadata_files.txt')
 
-data_processor.aggregate_datasets_info(json_file_paths)
-data_processor.aggregate_datasets_info(json_file_paths, cell_type=True, output_csv_path = '../data/aggregated_metadata_json_with_celltype.csv')
+# data_processor.aggregate_datasets_info(json_file_paths)
+# data_processor.aggregate_datasets_info(json_file_paths, cell_type=True, output_csv_path = '../data/aggregated_metadata_json_with_celltype.csv')
+df = data_processor.aggregate_datasets_info(['/work/projects/BioITeam/data/CELLxGENE/collections/283d65eb-dd53-496d-adb7-7570c7caa443/283d65eb-dd53-496d-adb7-7570c7caa443_metadata.json'],cell_type = True, output_csv_path='test_missing_celltypes.csv')
+
+#print(df[df['dataset_id']=='3a7f3ab4-a280-4b3b-b2c0-6dd05614a78c'])

@@ -1,0 +1,1277 @@
+collection_id,dataset_id,development_stage,disease,organism,raw_data_location,cell_type
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ff7d15fa-f4b6-4a0e-992e-fd0c9d088ded,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fe1a73ab-a203-45fd-84e9-0f7fd19efcbd,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fbf173f9-f809-4d84-9b65-ae205d35b523,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,fa554686-fc07-44dd-b2de-b726d82d26ec,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,42-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f9034091-2e8f-4ac6-9874-e7b7eb566824,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f8dda921-5fb4-4c94-a654-c6fc346bfd6d,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f7d003d4-40d5-4de8-858c-a9a8b48fcc67,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f7d003d4-40d5-4de8-858c-a9a8b48fcc67,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,f7d003d4-40d5-4de8-858c-a9a8b48fcc67,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,f7d003d4-40d5-4de8-858c-a9a8b48fcc67,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f6d9f2ad-5ec7-4d53-b7f0-ceb0e7bcd181,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f5a04dff-d394-4023-8811-65494e8bb11d,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f502c312-05dc-4fd4-a762-92a63e92b539,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f3565fda-499a-4d20-bd92-563c09954c42,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,60-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,60-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,60-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,60-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,60-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,60-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,60-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f32c2c13-bb1a-4ffd-a457-60b64ecfa4cb,60-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,f20f44ef-a0d4-4d94-87de-037fd47141f0,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f16f4108-7873-4035-9989-3748da1a7ff1,29-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,f16f4108-7873-4035-9989-3748da1a7ff1,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,f16f4108-7873-4035-9989-3748da1a7ff1,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,f16f4108-7873-4035-9989-3748da1a7ff1,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ed33c203-233a-476a-a56b-28da945fdd32,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ed11cc3e-2947-407c-883c-c53b043917c3,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ecd9230d-c571-4dab-abd3-8b54c74833f0,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e8681d74-ac9e-4be5-be14-1cf1bbd54dd7,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e6b2ce27-681b-4409-a053-2681875936e5,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,e6b2ce27-681b-4409-a053-2681875936e5,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,e6b2ce27-681b-4409-a053-2681875936e5,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,e6b2ce27-681b-4409-a053-2681875936e5,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e5b1115b-a486-49bb-bda3-8261822836e0,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e4710a02-8abc-48d5-a3e8-9ae7e9d79bdb,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,e4710a02-8abc-48d5-a3e8-9ae7e9d79bdb,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,e4710a02-8abc-48d5-a3e8-9ae7e9d79bdb,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,e4710a02-8abc-48d5-a3e8-9ae7e9d79bdb,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,e1f595f6-ba2c-495e-9bee-7056f116b1e4,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,dd03ce70-3243-4c96-9561-330cc461e4d7,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,db1d2c1b-2ee1-45d5-9d53-69a327cd77e6,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d6a5b240-cc8f-45c1-ad36-2fc291e15e8e,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d582f63a-3c88-4e38-8cd3-8682dbe40f64,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d5452b83-7c3d-4d7c-ab7a-c7fece7196c5,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d2b5efc1-14c6-4b5f-bd98-40f9084872d7,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d288b10a-643e-44bd-b451-96e9588b2ee5,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d2514440-d747-4d8d-b2c7-b58ef8b71fbe,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,d02287f3-408b-438d-9131-999e460cbd0e,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,cfa755c1-48c5-4336-94f4-aa95eca4fbd5,29-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,cfa755c1-48c5-4336-94f4-aa95eca4fbd5,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,cfa755c1-48c5-4336-94f4-aa95eca4fbd5,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,cfa755c1-48c5-4336-94f4-aa95eca4fbd5,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,caf8670f-e647-4f0c-bfba-163aa84ce602,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,caf8670f-e647-4f0c-bfba-163aa84ce602,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,caf8670f-e647-4f0c-bfba-163aa84ce602,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,caf8670f-e647-4f0c-bfba-163aa84ce602,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,ca20e2ac-5676-4158-b5d0-0c2b15898b19,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c7856243-c59a-4b70-8ce7-25b94c2d9da1,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c5cfa2b7-abb1-4a50-908f-707b54ca606b,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c4dd26a8-d956-4bee-a233-44b573f2ce27,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c4b03352-af8d-492a-8d6b-40f304e0a122,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,c4b03352-af8d-492a-8d6b-40f304e0a122,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,c4b03352-af8d-492a-8d6b-40f304e0a122,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,c4b03352-af8d-492a-8d6b-40f304e0a122,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,c2aad8fc-b63b-4f9b-9cfd-baf7bc9c1771,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,c202b243-1aa1-4b16-bc9a-b36241f3b1e3,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,c202b243-1aa1-4b16-bc9a-b36241f3b1e3,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,c202b243-1aa1-4b16-bc9a-b36241f3b1e3,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,c202b243-1aa1-4b16-bc9a-b36241f3b1e3,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,bdb26abd-f4ba-4ea3-8862-c2340e7a4f55,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,bdb26abd-f4ba-4ea3-8862-c2340e7a4f55,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,bdb26abd-f4ba-4ea3-8862-c2340e7a4f55,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,bdb26abd-f4ba-4ea3-8862-c2340e7a4f55,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,bd6b68e8-179a-42f0-9bde-b4fdf7d34dd1,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,bd6b68e8-179a-42f0-9bde-b4fdf7d34dd1,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,bd6b68e8-179a-42f0-9bde-b4fdf7d34dd1,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,bd6b68e8-179a-42f0-9bde-b4fdf7d34dd1,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,bac09168-940b-4b11-8d55-b4955f80b98d,29-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,b8681124-aabf-4904-b9c9-66d834bf5bba,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,60-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,60-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,60-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,60-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,60-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,60-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,60-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,b165f033-9dec-468a-9248-802fc6902a74,60-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,adda0684-f8ea-4403-b393-2a25607077c4,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,acae7679-d077-461c-b857-ee6ccfeb267f,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a84face4-eb30-4f43-994f-c6a13a097808,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a7b4f565-691d-43ea-bf4a-d2d1d52bb4b4,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a5b5d1f3-dd8b-44f6-a685-15f0f741c062,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a59ba9fa-1407-4f15-8c56-d3637421570d,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a56f1a6b-071c-4780-9832-33ca9b8fb391,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,a56f1a6b-071c-4780-9832-33ca9b8fb391,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,a56f1a6b-071c-4780-9832-33ca9b8fb391,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,a56f1a6b-071c-4780-9832-33ca9b8fb391,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a4116666-d295-4443-a174-0acc283f92c4,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,a19b218b-1c0a-4618-b41f-7c216c623ec6,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9f499d32-400d-4c42-ac9a-fb1481844fee,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec34295-ab16-47e2-af33-b884143e520b,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec335f2-420a-45a8-b45a-1ab646e50041,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec335f2-420a-45a8-b45a-1ab646e50041,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec335f2-420a-45a8-b45a-1ab646e50041,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,9ec335f2-420a-45a8-b45a-1ab646e50041,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,98113e7e-f586-4065-a26a-60aa702f8d1c,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,98113e7e-f586-4065-a26a-60aa702f8d1c,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,98113e7e-f586-4065-a26a-60aa702f8d1c,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,98113e7e-f586-4065-a26a-60aa702f8d1c,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,949ec7fc-ac54-47c9-bb6f-ee9e67688cce,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,9372df2d-13d6-4fac-980b-919a5b7eb483,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,93131426-0124-4ab4-a013-9dfbcd99d467,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,900fdf13-150d-4695-9f8c-4c09105ba2eb,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,8f48c031-6692-4c82-b6c2-e4ad35cbc0aa,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,8f48c031-6692-4c82-b6c2-e4ad35cbc0aa,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,8f48c031-6692-4c82-b6c2-e4ad35cbc0aa,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,8f48c031-6692-4c82-b6c2-e4ad35cbc0aa,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,8e10f1c4-8e98-41e5-b65f-8cd89a887122,29-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,8e10f1c4-8e98-41e5-b65f-8cd89a887122,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,8e10f1c4-8e98-41e5-b65f-8cd89a887122,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,8e10f1c4-8e98-41e5-b65f-8cd89a887122,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,8ba5453f-7fab-4702-a3a6-4021b1f31a7a,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,8ba5453f-7fab-4702-a3a6-4021b1f31a7a,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,8ba5453f-7fab-4702-a3a6-4021b1f31a7a,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,8ba5453f-7fab-4702-a3a6-4021b1f31a7a,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,88a01d4a-5197-45be-b5ae-e019aef43376,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,8039c63d-08b0-4fc9-af0f-5b57f08ca0da,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7db0c178-b0a4-442f-ba54-e9e1633a84bb,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7d3ab174-e433-40fc-a352-6fe71b1a19f9,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7cd3c321-e487-4b51-a8af-9bf671b59fe5,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7c1c3d47-3166-43e5-9a95-65ceb2d45f78,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,7b316f62-7fa0-4b95-bac9-e90866038a85,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,7a0a8891-9a22-4549-a55b-c2aca23c3a2a,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,7a0a8891-9a22-4549-a55b-c2aca23c3a2a,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,7a0a8891-9a22-4549-a55b-c2aca23c3a2a,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,7a0a8891-9a22-4549-a55b-c2aca23c3a2a,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,77c1c785-809f-4065-8c54-6a0170783256,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,77044335-0ac5-4406-9b3f-8cdd3656d67b,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,715327a6-7978-4896-ba91-69d6b04dbbfb,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,70e4f35b-c98c-45a1-9aa9-2053b07315dd,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,700aed19-c16e-4ba8-9191-07da098a8626,29-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,700aed19-c16e-4ba8-9191-07da098a8626,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,700aed19-c16e-4ba8-9191-07da098a8626,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,700aed19-c16e-4ba8-9191-07da098a8626,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,6ed0bb6c-a9e3-4ba6-9436-7c8fd4e206f0,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,6dafb698-7a53-4699-ad13-1b5e2c164be7,29-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,6dafb698-7a53-4699-ad13-1b5e2c164be7,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,6dafb698-7a53-4699-ad13-1b5e2c164be7,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,6538ce1b-7949-405f-b01c-a2c3e876baee,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,6538ce1b-7949-405f-b01c-a2c3e876baee,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,6538ce1b-7949-405f-b01c-a2c3e876baee,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,6538ce1b-7949-405f-b01c-a2c3e876baee,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,64f4ad90-a422-400a-944d-4ce0f39594a7,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,64767efb-49b0-4562-a1bd-e619a5d9db41,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,639ffc23-14db-4060-9027-3c90314200f8,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5e5ab909-f73f-4b57-98a0-6d2c5662f6a4,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5bc23cb2-8cfc-4960-bab1-c3027fbeefc4,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,5a73f63f-18a2-49b5-b431-2c469c41a41b,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,599504e5-d4ad-45bd-9128-823faf0fb9c9,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,599504e5-d4ad-45bd-9128-823faf0fb9c9,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,599504e5-d4ad-45bd-9128-823faf0fb9c9,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,599504e5-d4ad-45bd-9128-823faf0fb9c9,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,59923449-e303-43e6-9e63-03ef92f5ebd1,29-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,59923449-e303-43e6-9e63-03ef92f5ebd1,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,59923449-e303-43e6-9e63-03ef92f5ebd1,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,59923449-e303-43e6-9e63-03ef92f5ebd1,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,56c33a38-2732-4e53-a9c1-1bc61eda9a99,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,531c9543-9093-45ed-93ac-ebc5815bfb8a,29-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,531c9543-9093-45ed-93ac-ebc5815bfb8a,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,531c9543-9093-45ed-93ac-ebc5815bfb8a,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,531c9543-9093-45ed-93ac-ebc5815bfb8a,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,52f18bc3-52d9-487b-bf8f-f0b7aa684b09,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,52ea546e-9229-40ef-b048-a2e694dd73e8,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,529bb209-9d7b-44da-bfa4-f6e4745c46c2,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,50dc91a1-36b6-472a-b884-7307b6961ab1,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,50dc91a1-36b6-472a-b884-7307b6961ab1,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,50dc91a1-36b6-472a-b884-7307b6961ab1,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4d43082e-59cd-43ac-b77d-54d55519c881,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4976b234-9028-4b4b-8a2f-8ac59d636219,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,489eaa11-c119-4a5f-b44b-81e33c80c0ef,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4724c395-0c46-46d2-81f7-60fd271fb488,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,470565f2-5afc-456a-b617-18e4496c04fd,29-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,46ff9dc2-3d87-4b36-91aa-ffa8aa13c52e,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,4593c820-512d-4805-a10f-c0b864a7cc8c,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,43b7e156-65b3-4a7b-8c7a-08528e4b21d0,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,421e5f54-5de7-425f-b399-34ead0651ce1,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,40e79234-65e8-45e9-b555-5c663154a108,29-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40e79234-65e8-45e9-b555-5c663154a108,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,40e79234-65e8-45e9-b555-5c663154a108,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,40e79234-65e8-45e9-b555-5c663154a108,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,40569510-2282-461b-84df-6218ef208e0e,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,40318d39-3d8f-49f4-8455-a2e1365c5c5b,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,3f56901c-dd4a-47d6-b60b-7b0c0111cfb2,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,3f31f8ce-bbf6-4df8-8203-aa240ed03026,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,3a7f3ab4-a280-4b3b-b2c0-6dd05614a78c,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,3a7f3ab4-a280-4b3b-b2c0-6dd05614a78c,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,3a7f3ab4-a280-4b3b-b2c0-6dd05614a78c,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,3a7f3ab4-a280-4b3b-b2c0-6dd05614a78c,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,381aa407-317a-40ef-8048-7ce0eacc4266,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,367b55f4-d543-49aa-90e8-4765fcb8c687,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,364348b4-bc34-4fe1-a851-60d99e36cafa,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,35c8a04c-8639-4d15-8228-765d8d93fc96,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,35090826-f636-40c1-a3ef-4466beeab9f8,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,35090826-f636-40c1-a3ef-4466beeab9f8,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,35090826-f636-40c1-a3ef-4466beeab9f8,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,35090826-f636-40c1-a3ef-4466beeab9f8,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,31f04740-c712-4c4b-a3f8-55c0506b3034,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,2a8ca8f3-5599-4cda-b973-3a2dfc3c1fe6,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,27d91086-cfe3-4e33-9282-bd1246e5ce8e,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,22658f4f-9268-41ad-8828-cc53f4baa9fa,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,2190bd4d-3be0-4bf7-8ca8-8d6f71228936,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,2190bd4d-3be0-4bf7-8ca8-8d6f71228936,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,2190bd4d-3be0-4bf7-8ca8-8d6f71228936,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,2190bd4d-3be0-4bf7-8ca8-8d6f71228936,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,2185eb07-22e2-4209-b3c8-7111afc6aa90,29-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,2185eb07-22e2-4209-b3c8-7111afc6aa90,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,2185eb07-22e2-4209-b3c8-7111afc6aa90,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,2185eb07-22e2-4209-b3c8-7111afc6aa90,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,20980d73-7c53-4039-b852-b76a01566d5a,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1cf24082-59de-4029-ac81-6e398768af3a,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1b767f95-d0a0-4a3d-b394-cc665d86c3dc,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1a018108-b4b6-457b-ba15-046d5e98c169,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,19b21f40-db42-4a71-a0d6-913e83b17784,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,18500fcd-9960-49cb-8a8e-7d868dc14efe,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,182f6a56-7360-4924-a74e-1772e07b3031,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,1185a7d3-a9c1-4280-9ba5-d61895b15cac,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,0ee5ae70-c3f5-473f-bd1c-287f4690ffc5,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0d7f4c06-a6bd-47d2-a42b-3a7196704f77,29-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0d7f4c06-a6bd-47d2-a42b-3a7196704f77,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,0d7f4c06-a6bd-47d2-a42b-3a7196704f77,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0d7f4c06-a6bd-47d2-a42b-3a7196704f77,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,095940cb-7422-4510-96e2-cbafd961eb88,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,090da8ea-46e8-40df-bffc-1f78e1538d27,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,29-year-old human stage,normal,Homo sapiens,X,Bergmann glial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,choroid plexus epithelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,07b1d7c8-5c2e-42f7-9246-26f746cd6013,50-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,04a23820-ffa8-4be5-9f65-64db15631d1e,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,04a23820-ffa8-4be5-9f65-64db15631d1e,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,04a23820-ffa8-4be5-9f65-64db15631d1e,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,04a23820-ffa8-4be5-9f65-64db15631d1e,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,29-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,03d38670-1444-4001-bc53-9936e61d9b20,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
+283d65eb-dd53-496d-adb7-7570c7caa443,0325478a-9b52-45b5-b40a-2e2ab0d72eb1,29-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,0325478a-9b52-45b5-b40a-2e2ab0d72eb1,42-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,0325478a-9b52-45b5-b40a-2e2ab0d72eb1,50-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,0325478a-9b52-45b5-b40a-2e2ab0d72eb1,60-year-old human stage,normal,Homo sapiens,X,
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,astrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,central nervous system macrophage
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,endothelial cell
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,ependymal cell
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,fibroblast
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,leukocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,neuron
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,oligodendrocyte precursor cell
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,pericyte
+283d65eb-dd53-496d-adb7-7570c7caa443,00476f9f-ebc1-4b72-b541-32f912ce36ea,42-year-old human stage,normal,Homo sapiens,X,vascular associated smooth muscle cell
