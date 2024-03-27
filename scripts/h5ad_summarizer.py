@@ -12,34 +12,6 @@ i.e.
 python h5ad_summarizer.py my_dataset.h5ad
 '''
 
-def read_h5ad(file_path):
-
-    adata = ad.read_h5ad(file_path)
-    observations = adata.obs.reset_index()
-    
-    return observations
-
-def count_column_frequencies(files, output_filename = '../data/column_frequencies.csv'):
-    
-    column_frequencies = {}
-    
-    for f in files:
-        print(f)
-        df = read_h5ad(f) 
-        for column in df.columns:
-            if column in column_frequencies:
-                column_frequencies[column] += 1
-            else:
-                column_frequencies[column] = 1
-
-    freq_df = pd.DataFrame(list(column_frequencies.items()), columns=['colname','count'])
-    freq_df.sort_values(by = 'count', ascending=False, inplace=True)
-    print(freq_df)
-    freq_df.to_csv(output_filename, index=False)
-
-    return column_frequencies
-
-
 def aggregate_and_modify_counts(df):
     """
     Aggregates numeric columns of a DataFrame by 'cell_type', computing mean and variance for each
@@ -162,14 +134,4 @@ def read_single_col_file(list_file):
 
     return lines
 
-#file_path = sys.argv[1] # .hda5 file is the first argument
-#process_h5ad(file_path)
 
-h5ad_text_files = sys.argv[1]
-file_list = read_single_col_file(h5ad_text_files)
-count_column_frequencies(file_list)
-
-###### TODO #########
-# write bash program to merge all text files into one, make sure that headers are the same 
-# compute mean of means
-# compute combined variance 
