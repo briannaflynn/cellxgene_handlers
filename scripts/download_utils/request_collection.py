@@ -1,8 +1,3 @@
-#!/usr/bin/python
-
-
-#!/usr/bin/python
-
 import requests
 import pandas as pd
 import sys
