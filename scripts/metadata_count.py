@@ -4,6 +4,46 @@ from collections import Counter
 
 # class for managing hierarchical evaluation of metadata JSON files
 class MetadataProcessor:
+        """
+    A class for managing and processing hierarchical metadata from JSON files for
+    evaluations and analyses. The class provides methods for reading metadata from
+    files, processing hierarchical structures, counting items at various levels of
+    the hierarchy, and aggregating information into datasets with optional details.
+
+    Attributes:
+        levels_counts (list[Counter]): A list where each index represents a different
+        level in the hierarchy of processed metadata, with each element being a Counter
+        object that tracks the frequency of items (e.g., keys, values) at that level.
+
+    Methods:
+        read_single_column_file_to_list(filename):
+            Reads a file where each line is considered a separate item and returns a
+            list of these items, stripped of leading and trailing whitespace.
+        
+        process_dict(data, level=0):
+            Recursively processes a dictionary representing hierarchical metadata,
+            updating `levels_counts` with the frequency of keys and values at each
+            hierarchical level.
+
+        count_items_in_json_files(json_file_paths):
+            Processes multiple JSON files to count items at various levels of hierarchy
+            within the metadata. It resets `levels_counts` before processing and returns
+            a list of pandas DataFrames, each representing the frequency counts of items
+            at a different level in the hierarchy.
+
+        aggregate_datasets_info(json_file_paths, cell_type=True, verbose=True, output_csv_path='../data/aggregated_metadata_json_with_celltype.csv'):
+            Aggregates metadata from multiple JSON files into a single pandas DataFrame,
+            optionally including cell type information. It can fill missing values based
+            on the last valid entry within the same dataset and outputs the result to a
+            CSV file. The method also prints detailed information about the processing if
+            `verbose` is set to True.
+
+    Example:
+        processor = MetadataProcessor()
+        json_paths = ['metadata1.json', 'metadata2.json']
+        df = processor.aggregate_datasets_info(json_paths, cell_type=True, verbose=False)
+        print(df.head())
+    """
     def __init__(self):
         self.levels_counts = []
 
