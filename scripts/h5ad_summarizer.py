@@ -60,13 +60,6 @@ def generate_pandas_dataframe(file_path):
         print("No columns containing 'disease' were found.")
         return
 
-    # If columns are found, print them
-    print(f"Columns containing 'age': {age_columns}")
-    print(f"Columns containing 'disease': {disease_columns}")
-
-    sys.exit()
-    
-    print(observations.development_stage.value_counts())
     # raw count data matrix
     raw_counts_matrix = adata.raw.X
 
