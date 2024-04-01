@@ -10,6 +10,9 @@ def export_raw_counts_to_csv(df, base_path_string):
     - df: DataFrame with columns 'collection_id', 'dataset_id', and 'raw_data_location'.
     - base_path_string: The base path to prepend to the paths constructed from the DataFrame.
     """
+    # drop duplicate dataset ids so that no duplicate csv files get made
+    df_unique = df.drop_duplicates(subset='dataset_id', keep='first')
+    
     for idx, row in df.iterrows():
         # Construct the full path to the .h5ad file
         file_path = os.path.join(base_path_string, row['collection_id'], row['dataset_id'] + '.h5ad')
