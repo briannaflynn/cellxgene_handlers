@@ -14,8 +14,11 @@ def export_raw_counts_to_csv(df, base_path_string):
     df_unique = df.drop_duplicates(subset='dataset_id', keep='first')
     
     for idx, row in df.iterrows():
-        # Construct the full path to the .h5ad file
-        file_path = os.path.join(base_path_string, row['collection_id'], row['dataset_id'] + '.h5ad')
+
+        # dataset ID for naming, etc
+        ID = row['dataset_id']
+        # construct the full path to the .h5ad file
+        file_path = os.path.join(base_path_string, row['collection_id'], ID + '.h5ad')
         
         if not os.path.exists(file_path):
             print(f"File does not exist: {file_path}")
@@ -31,10 +34,24 @@ def export_raw_counts_to_csv(df, base_path_string):
             raw_counts_matrix = adata.raw.X
             gene_names = adata.raw.var_names
         
-        # Convert the raw counts matrix to a pandas DataFrame
+        # convert the raw counts matrix to df and get observation annotations for each row
         raw_counts_df = pd.DataFrame(raw_counts_matrix.toarray(), index=adata.obs_names, columns=gene_names)
         raw_counts_df = raw_counts_df.reset_index()
+        observations_df = adata.obs.copy()
+
+        # reset indexes for merge
+        observations_df.reset_index(inplace=True)
+        raw_counts_df.reset_index(inplace=True)
         
-        csv_path = f"{row['dataset_id']}_raw_counts.csv"
-        raw_counts_df.to_csv(csv_path, index=False)
+        # check if the index columns match
+        if raw_counts_df['index'].equals(observations_df['index']):
+            # merge observations_df columns into raw_counts_df
+            raw_counts_df = pd.merge(raw_counts_df, observations_df, on='index', how='left')
+        else:
+            print('Observations and raw counts dataframe index columns don\'t match, exporting observations separately')
+            obs_path = f"{ID}_observations.csv"
+            observations_df.to_csv(obs_path)
+        
+        csv_path = f"{ID}_raw_counts.csv"
+        raw_counts_df.to_csv(csv_path)
         print(f"Exported raw counts to CSV: {csv_path}")
