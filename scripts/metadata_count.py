@@ -2,9 +2,9 @@ import json
 import pandas as pd
 from collections import Counter
 
-# class for managing hierarchical evaluation of metadata JSON files
+# Class for managing hierarchical evaluation of metadata JSON files
 class MetadataProcessor:
-        """
+    """
     A class for managing and processing hierarchical metadata from JSON files for
     evaluations and analyses. The class provides methods for reading metadata from
     files, processing hierarchical structures, counting items at various levels of
@@ -19,7 +19,7 @@ class MetadataProcessor:
         read_single_column_file_to_list(filename):
             Reads a file where each line is considered a separate item and returns a
             list of these items, stripped of leading and trailing whitespace.
-        
+
         process_dict(data, level=0):
             Recursively processes a dictionary representing hierarchical metadata,
             updating `levels_counts` with the frequency of keys and values at each
@@ -37,12 +37,6 @@ class MetadataProcessor:
             on the last valid entry within the same dataset and outputs the result to a
             CSV file. The method also prints detailed information about the processing if
             `verbose` is set to True.
-
-    Example:
-        processor = MetadataProcessor()
-        json_paths = ['metadata1.json', 'metadata2.json']
-        df = processor.aggregate_datasets_info(json_paths, cell_type=True, verbose=False)
-        print(df.head())
     """
     def __init__(self):
         self.levels_counts = []
@@ -74,18 +68,16 @@ class MetadataProcessor:
             with open(file_path, 'r') as file:
                 data = json.load(file)
                 self.process_dict(data)
-
+        
         levels_dfs = []
         for level_count in self.levels_counts:
             df = pd.DataFrame(list(level_count.items()), columns=['Key', 'Count'])
             levels_dfs.append(df)
-
+        
         return levels_dfs
 
-    def aggregate_datasets_info(self, json_file_paths, cell_type = True, verbose = True, output_csv_path='../data/aggregated_metadata_json_with_celltype.csv'):
-
-        def fill_missing_values(df, column_name:str):
-
+    def aggregate_datasets_info(self, json_file_paths, cell_type=True, verbose=True, output_csv_path='../data/aggregated_metadata_json_with_celltype_version.csv'):
+        def fill_missing_values(df, column_name: str):
             last_valid_value = None
             for i in range(len(df)):
                 if pd.notnull(df.at[i, column_name]) and df.at[i, column_name].strip():
@@ -97,7 +89,7 @@ class MetadataProcessor:
                     last_valid_value = None
 
             return df
-       
+
         aggregated_data = []
         columns_to_fill = ['development_stage', 'disease', 'organism']
         if cell_type:
@@ -107,12 +99,9 @@ class MetadataProcessor:
             with open(file_path, 'r') as file:
                 data = json.load(file)
                 collection_id = data['collection_id']
-                print(f"Processing {collection_id}")
-                print(file_path)
                 for dataset in data['datasets']:
-                    
                     dataset_id = dataset['dataset_id']
-
+                    dataset_version_id = dataset['dataset_version_id']  # Corrected typo here
                     raw_data_location = dataset['raw_data_location']
 
                     if cell_type:
@@ -130,13 +119,14 @@ class MetadataProcessor:
                             cell_label = cells[i].get('label', '') if i < len(cells) else ''
 
                             aggregated_data.append({
-                                'collection_id':collection_id,
-                                'dataset_id':dataset_id,
-                                'development_stage':dev_stage_label,
-                                'disease':disease_label,
-                                'organism':organism_label,
-                                'raw_data_location':raw_data_location,
-                                'cell_type':cell_label
+                                'collection_id': collection_id,
+                                'dataset_id': dataset_id,
+                                'dataset_version_id': dataset_version_id,
+                                'development_stage': dev_stage_label,
+                                'disease': disease_label,
+                                'organism': organism_label,
+                                'raw_data_location': raw_data_location,
+                                'cell_type': cell_label
                             })
                     else:
                         developmental_stages = dataset['development_stage']
@@ -151,12 +141,13 @@ class MetadataProcessor:
                             organism_label = organisms[i].get('label', '') if i < len(organisms) else ''
 
                             aggregated_data.append({
-                                'collection_id':collection_id,
-                                'dataset_id':dataset_id,
-                                'development_stage':dev_stage_label,
-                                'disease':disease_label,
-                                'organism':organism_label,
-                                'raw_data_location':raw_data_location
+                                'collection_id': collection_id,
+                                'dataset_id': dataset_id,
+                                'dataset_version_id': dataset_version_id,
+                                'development_stage': dev_stage_label,
+                                'disease': disease_label,
+                                'organism': organism_label,
+                                'raw_data_location': raw_data_location
                             })
 
         df = pd.DataFrame(aggregated_data)
@@ -174,5 +165,5 @@ class MetadataProcessor:
 data_processor = MetadataProcessor()
 json_file_paths = data_processor.read_single_column_file_to_list('../data/metadata_files.txt')
 
-data_no_celltypes = data_processor.aggregate_datasets_info(json_file_paths, cell_type=False, output_csv_path='aggregated_metadata_json.csv')
+data_no_celltypes = data_processor.aggregate_datasets_info(json_file_paths, cell_type=False, output_csv_path='aggregated_metadata_json_version.csv')
 df = data_processor.aggregate_datasets_info(json_file_paths)
