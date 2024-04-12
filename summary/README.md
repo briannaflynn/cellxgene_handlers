@@ -1,6 +1,6 @@
-# Aggregate data processing and Normalization
+# Aggregate data processing and normalization
 
-The following tables are samples, full size tables available on the Marcotte pods here: ```./CELxGENE/collections/aggregated_summary_tables/```. See cellxgene manuscript and explorer documentation for additional details. 
+The following tables are samples, full size tables available on the Marcotte pods from the CELLxGENE directory in SCRATCH here: ```CELLxGENE/collections/aggregated_summary_tables/```. See cellxgene manuscript and explorer documentation for additional details. 
 
 **Removal of Duplicate Cells**
 
@@ -11,7 +11,22 @@ below.
 **Removal of Cells Based on Sequencing Assay**
 
 Only cells from sequencing assays that measure gene expression and don't require gene-length
-normalization are included ( see table 1 of cellxgene manuscript )
+normalization are included
+```
+sci-RNA-seq
+10x 3' v1
+10x 5' v1
+10x 3' v2
+10x 5' v2
+10x 3' v3
+10x 3' transcription profiling
+10x 5' transcription profiling
+10x technology
+Seq-Well
+Drop-seq
+CEL-seq2
+```
+(see table 1 of cellxgene manuscript for additional information)
 
 **Data Normalization**
 
@@ -36,6 +51,7 @@ transformed_counts = np.log(cptt + 1)
 
 print("Transformed counts:", transformed_counts)
 ```
+The aggregate mean is the average of log transformed normalized raw read counts, using the above method. 
 
 **Removal of Noisy Ultra-low Expression Values**
 
