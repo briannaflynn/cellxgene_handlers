@@ -51,6 +51,7 @@ transformed_counts = np.log(cptt + 1)
 
 print("Transformed counts:", transformed_counts)
 ```
+The aggregate mean is the average of log transformed normalized raw read counts, using the above method. 
 
 **Removal of Noisy Ultra-low Expression Values**
 
