@@ -1,17 +1,20 @@
 # Aggregate data processing and Normalization
 
-# The following tables are samples, full size tables available on the Marcotte pods here: ```./CELxGENE/collections/aggregated_summary_tables/```
+The following tables are samples, full size tables available on the Marcotte pods here: ```./CELxGENE/collections/aggregated_summary_tables/```
 
-***Removal of Duplicate Cells***
+**Removal of Duplicate Cells**
+
 Some data on CellxGene is duplicated due to independent submissions, for example metaanalysis vs original data. All data submitted on Discover is curated to indicate whether any cell
 is the primary data. Only cells demarcated as primary data are included in the processing steps
 below.
 
-***Removal of Cells Based on Sequencing Assay***
+**Removal of Cells Based on Sequencing Assay**
+
 Only cells from sequencing assays that measure gene expression and don't require gene-length
 normalization are included ( see table 1 of cellxgene manuscript )
 
-***Data Normalization***
+**Data Normalization**
+
 Read counts are normalized using the ln(CPTT+1) transformation of raw counts.
 Normalized matrices from multiple datasets of the same tissue are concatenated along the gene
 axis.
@@ -34,10 +37,13 @@ transformed_counts = np.log(cptt + 1)
 print("Transformed counts:", transformed_counts)
 ```
 
-***Removal of Noisy Ultra-low Expression Values***
+**Removal of Noisy Ultra-low Expression Values**
+
 After applying normalization, any gene/cell combination counts less or equal than 2 are set to
 missing data. This allows for removal of noise due to ultra-lowly expressed genes and provides
 a cleaner visualization.
+
+_____________________________________________________________________________________________
 
 # Note about cell ontology
 
