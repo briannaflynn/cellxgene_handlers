@@ -1,4 +1,4 @@
-# Aggregate data processing and Normalization
+# Aggregate data processing and normalization
 
 The following tables are samples, full size tables available on the Marcotte pods here: ```./CELxGENE/collections/aggregated_summary_tables/```. See cellxgene manuscript and explorer documentation for additional details. 
 
