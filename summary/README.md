@@ -11,7 +11,22 @@ below.
 **Removal of Cells Based on Sequencing Assay**
 
 Only cells from sequencing assays that measure gene expression and don't require gene-length
-normalization are included ( see table 1 of cellxgene manuscript )
+normalization are included
+```
+sci-RNA-seq
+10x 3' v1
+10x 5' v1
+10x 3' v2
+10x 5' v2
+10x 3' v3
+10x 3' transcription profiling
+10x 5' transcription profiling
+10x technology
+Seq-Well
+Drop-seq
+CEL-seq2
+```
+(see table 1 of cellxgene manuscript for additional information)
 
 **Data Normalization**
 
