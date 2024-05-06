@@ -3,6 +3,19 @@ import sys
 import io
 from contextlib import contextmanager
 
+logger = logging.getLogger("cxghandler")
+# check if logger has been initialized
+if not logger.hasHandlers() or len(logger.handlers) == 0:
+    logger.propagate = False
+    logger.setLevel(logging.INFO)
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setLevel(logging.INFO)
+    formatter = logging.Formatter(
+        "%(name)s - %(levelname)s - %(message)s", datefmt="%H:%M:%S"
+    )
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+
 def setup_logger(name, log_file, level=logging.DEBUG):
     """Function to setup as many loggers as you want"""
     logger = logging.getLogger(name)
