@@ -8,8 +8,9 @@ from anndata import AnnData
 
 class Preprocessor:
     """
-    Prepares data into training, validation, and test splits.
-    Normalizes raw expression values, applies binning, or uses other transformations to convert data to model input format.
+    This class contains methods for preprocessing the CellXGene data prior to downstream analysis. 
+    Mainly, includes methods for outlier removal (filter_gene_by_counts and filter_cell_by_counts), normalization of raw expression values (normalize_total), log1p transformation (log1p), 
+    highly variable gene subsetting (subset_hvg) and correction for batch and scale differences (binning).
     """
 
     def __init__(
