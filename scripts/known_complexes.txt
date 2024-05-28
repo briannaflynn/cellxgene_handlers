@@ -1,0 +1,23 @@
+Familiar name	Gene name	Gene stable ID	Gene description	Gene type	Chromosome/scaffold name
+IFT121	WDR35	ENSG00000118965	WD repeat domain 35 [Source:HGNC Symbol;Acc:HGNC:29250]	protein_coding	2
+IFT122	IFT122	ENSG00000163913	intraflagellar transport 122 [Source:HGNC Symbol;Acc:HGNC:13556]	protein_coding	3
+IFT139	TTC21B	ENSG00000123607	tetratricopeptide repeat domain 21B [Source:HGNC Symbol;Acc:HGNC:25660]	protein_coding	2
+IFT140	IFT140	ENSG00000187535	intraflagellar transport 140 [Source:HGNC Symbol;Acc:HGNC:29077]	protein_coding	16
+IFT144	WDR19	ENSG00000157796	WD repeat domain 19 [Source:HGNC Symbol;Acc:HGNC:18340]	protein_coding	4
+IFT43	IFT43	ENSG00000119650	intraflagellar transport 43 [Source:HGNC Symbol;Acc:HGNC:29669]	protein_coding	14
+PSMA1	PSMA1	ENSG00000129084	proteasome 20S subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:9530]	protein_coding	11
+PSMA2	PSMA2	ENSG00000106588	proteasome 20S subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:9531]	protein_coding	7
+PSMA3	PSMA3	ENSG00000100567	proteasome 20S subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:9532]	protein_coding	14
+PSMA4	PSMA4	ENSG00000041357	proteasome 20S subunit alpha 4 [Source:HGNC Symbol;Acc:HGNC:9533]	protein_coding	15
+PSMA5	PSMA5	ENSG00000143106	proteasome 20S subunit alpha 5 [Source:HGNC Symbol;Acc:HGNC:9534]	protein_coding	1
+PSMA6	PSMA6	ENSG00000100902	proteasome 20S subunit alpha 6 [Source:HGNC Symbol;Acc:HGNC:9535]	protein_coding	14
+PSMA7	PSMA7	ENSG00000101182	proteasome 20S subunit alpha 7 [Source:HGNC Symbol;Acc:HGNC:9536]	protein_coding	20
+PSMB1	PSMB1	ENSG00000281184	proteasome 20S subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:9537]	lncRNA	HSCHR6_1_CTG5
+PSMB1	PSMB1	ENSG00000008018	proteasome 20S subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:9537]	protein_coding	6
+PSMB2	PSMB2	ENSG00000126067	proteasome 20S subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:9539]	protein_coding	1
+PSMB3	PSMB3	ENSG00000275903	proteasome 20S subunit beta 3 [Source:HGNC Symbol;Acc:HGNC:9540]	protein_coding	HSCHR17_7_CTG4
+PSMB3	PSMB3	ENSG00000277791	proteasome 20S subunit beta 3 [Source:HGNC Symbol;Acc:HGNC:9540]	protein_coding	17
+PSMB4	PSMB4	ENSG00000159377	proteasome 20S subunit beta 4 [Source:HGNC Symbol;Acc:HGNC:9541]	protein_coding	1
+PSMB5	PSMB5	ENSG00000100804	proteasome 20S subunit beta 5 [Source:HGNC Symbol;Acc:HGNC:9542]	protein_coding	14
+PSMB6	PSMB6	ENSG00000142507	proteasome 20S subunit beta 6 [Source:HGNC Symbol;Acc:HGNC:9543]	protein_coding	17
+PSMB7	PSMB7	ENSG00000136930	proteasome 20S subunit beta 7 [Source:HGNC Symbol;Acc:HGNC:9544]	protein_coding	9
