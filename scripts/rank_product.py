@@ -52,7 +52,6 @@ for target in target_dict:
 	
 	gene_RP = {}
 	for gene in gene_flag:
-	#	if len(gene_flag[gene]) > (len(file_list)/2):
 		if len(gene_flag[gene]) > 5:
 			rank_product = 1
 			for flag in gene_flag[gene]:
