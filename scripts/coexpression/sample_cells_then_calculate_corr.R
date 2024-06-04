@@ -10,7 +10,7 @@ library(Seurat)
 total <- readRDS("b84def55-a776-4aa4-a9a6-7aab8b973086.rds")
 nCountRNA = "nCounts_RNA_UMIs"
 pct_rank_cut = 80
-zero_percent_cut = 30
+zero_percent_cut = 70
 
 gene_of_interest <- c("ENSG00000138073", "ENSG00000152700", "ENSG00000064835",
 	"ENSG00000150527", "ENSG00000164081", "ENSG00000008018", "ENSG00000187535",
@@ -62,10 +62,11 @@ main_func <- function(annot, sample_size, my_obj){
 				output_genes = c()
 				output_spearmans = c()
 				for (gene in total_genes){
-					if (num_zero_cells[gene] <= (num_cells * zero_percent_cut / 100)){			
+					if (num_zero_cells[gene] <= (num_cells * zero_percent_cut / 100)){
+						#print(exp_matrix[gene, ])	
 						spearman <- cor(target_exp, exp_matrix[gene, ], method="spearman")
-						append(output_genes, gene)
-						append(output_spearmans, spearman)
+						output_genes = c(output_genes, gene)
+						output_spearmans = c(output_spearmans, spearman)
 					}
 				}
 				output_df = data.frame(output_genes, output_spearmans)
