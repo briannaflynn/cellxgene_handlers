@@ -87,8 +87,6 @@ main_func <- function(annot, sample_size, my_obj){
 ### tissue_in_publication ###
 main_func("tissue_in_publication", 2000, total)
 
-if(FALSE){
-
 ###### tissue ######
 subset2 <- subset(total, subset = tissue %!in% c("uterus", "lacrimal gland", "tongue"))
 main_func("tissue", 500, subset2)
