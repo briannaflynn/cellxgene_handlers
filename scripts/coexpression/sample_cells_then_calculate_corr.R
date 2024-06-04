@@ -51,8 +51,6 @@ main_func <- function(annot, sample_size, my_obj){
 	total_genes <- rownames(exp_matrix)
 	num_cells <- ncol(exp_matrix)
 	num_zero_cells <- apply(exp_matrix, 1, function(x){sum(x==0)})
-	output_genes = c()
-	output_spearmans = c()
 
 	for (target in target_genes){
 		if (target %in% total_genes){
@@ -61,6 +59,8 @@ main_func <- function(annot, sample_size, my_obj){
 				print(paste(target, " expression is zero more than ", zero_percent_cut, "% of cells in this subset", sep=""))
 			}
 			else{
+				output_genes = c()
+				output_spearmans = c()
 				for (gene in total_genes){
 					if (num_zero_cells[gene] <= (num_cells * zero_percent_cut / 100)){			
 						spearman <- cor(target_exp, exp_matrix[gene, ], method="spearman")
