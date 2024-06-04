@@ -68,20 +68,19 @@ main_func <- function(annot, sample_size, my_obj){
 						append(output_spearmans, spearman)
 					}
 				}
+				output_df = data.frame(output_genes, output_spearmans)
+				write.table(output_df, file="temp.txt", quote=F, sep="\t")
+				output_name = paste(sample_size, annot, target, "spearman", "txt", sep=".")
+				cmd <- paste("tail -n +2 temp.txt | sort -k2 -gr >", output_name, sep=" ") 
+				print(cmd)
+				system(cmd)
+				#system("rm temp.txt")
 			}
 		}
 		else{
 			print(paste(target, "is not in the data", sep=" "))
 		}
 	}
-
-	output_df = data.frame(output_genes, output_spearmans)
-	write.table(output_df, file="temp.txt", quote=F, sep="\t")
-	output_name = paste(sample_size, annot, "spearman", "txt", sep=".")
-	cmd <- paste("tail -n +2 temp.txt | sort -k2 -gr >", output_name, sep=" ") 
-	print(cmd)
-	system(cmd)
-	#system("rm temp.txt")
 }
 
 ### tissue_in_publication ###
