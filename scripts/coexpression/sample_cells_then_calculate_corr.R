@@ -9,8 +9,8 @@ library(Seurat)
 
 total <- readRDS("b84def55-a776-4aa4-a9a6-7aab8b973086.rds")
 nCountRNA = "nCounts_RNA_UMIs"
-pct_rank_cut = 80
-zero_percent_cut = 70
+pct_rank_cut = 110
+zero_percent_cut = 100
 
 gene_of_interest <- c("ENSG00000138073", "ENSG00000152700", "ENSG00000064835",
 	"ENSG00000150527", "ENSG00000164081", "ENSG00000008018", "ENSG00000187535",
@@ -50,6 +50,7 @@ main_func <- function(annot, sample_size, my_obj){
 
 	total_genes <- rownames(exp_matrix)
 	num_cells <- ncol(exp_matrix)
+	print(paste("Number of cells after percentile rank cut:", num_cells, sep=" "))
 	num_zero_cells <- apply(exp_matrix, 1, function(x){sum(x==0)})
 
 	for (target in target_genes){
@@ -61,21 +62,23 @@ main_func <- function(annot, sample_size, my_obj){
 			else{
 				output_genes = c()
 				output_spearmans = c()
+				output_cells = c()
 				for (gene in total_genes){
 					if (num_zero_cells[gene] <= (num_cells * zero_percent_cut / 100)){
 						#print(exp_matrix[gene, ])	
 						spearman <- cor(target_exp, exp_matrix[gene, ], method="spearman")
 						output_genes = c(output_genes, gene)
 						output_spearmans = c(output_spearmans, spearman)
+						output_cells = c(output_cells, num_cells - num_zero_cells[gene])
 					}
 				}
-				output_df = data.frame(output_genes, output_spearmans)
+				output_df = data.frame(output_genes, output_spearmans, output_cells)
 				write.table(output_df, file="temp.txt", quote=F, sep="\t", row.names=F)
 				output_name = paste(sample_size, annot, target, "spearman", "txt", sep=".")
 				cmd <- paste("tail -n +2 temp.txt | sort -k2 -gr >", output_name, sep=" ") 
 				print(cmd)
 				system(cmd)
-				#system("rm temp.txt")
+				system("rm temp.txt")
 			}
 		}
 		else{
