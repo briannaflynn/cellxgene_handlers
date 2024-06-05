@@ -7,10 +7,12 @@
 library(Seurat)
 '%!in%' <- function(x,y)!('%in%'(x,y))
 
-total <- readRDS("b84def55-a776-4aa4-a9a6-7aab8b973086.rds")
+total <- readRDS("~/cellxgene-census/Tabula_Sapiens/b84def55-a776-4aa4-a9a6-7aab8b973086.rds")
+
 nCountRNA = "nCounts_RNA_UMIs"
-pct_rank_cut = 110
-zero_percent_cut = 100
+pct_rank_cut = 80
+#zero_percent_cut = 100
+cell_number_cut = 10
 
 gene_of_interest <- c("ENSG00000138073", "ENSG00000152700", "ENSG00000064835",
 	"ENSG00000150527", "ENSG00000164081", "ENSG00000008018", "ENSG00000187535",
@@ -28,7 +30,7 @@ gene_of_interest <- c("ENSG00000138073", "ENSG00000152700", "ENSG00000064835",
 # MED1: ENSG00000125686
 # EMC1: ENSG00000127463
 
-random <- read.csv("../random_gene_sets.txt", header=F, sep=",")[, 1]
+random <- read.csv("~/cellxgene-census/random_gene_sets.txt", header=F, sep=",")[, 1]
 target_genes <- c(gene_of_interest, random)
 
 main_func <- function(annot, sample_size, my_obj){
@@ -39,7 +41,7 @@ main_func <- function(annot, sample_size, my_obj){
 
 	meta_file = paste(sample_size, annot, "meta", "txt", sep=".")
 	write.table(sub_obj@meta.data, file=meta_file, quote=F, sep="\t")
-	system(paste("../calculate_perc_per_annot.py", meta_file, nCountRNA, annot, sep=" "))
+	system(paste("~/cellxgene-census/calculate_perc_per_annot.py", meta_file, nCountRNA, annot, sep=" "))
 	perc_rank_file = paste(sample_size, annot, "perc_rank", "txt", sep=".")
 	perc_ranks <- read.table(file=perc_rank_file, sep="\t", header=T)
 	sub_obj <- AddMetaData(sub_obj, perc_ranks, col.name="pct_rank")
@@ -51,25 +53,30 @@ main_func <- function(annot, sample_size, my_obj){
 	total_genes <- rownames(exp_matrix)
 	num_cells <- ncol(exp_matrix)
 	print(paste("Number of cells after percentile rank cut:", num_cells, sep=" "))
-	num_zero_cells <- apply(exp_matrix, 1, function(x){sum(x==0)})
+	#num_zero_cells <- apply(exp_matrix, 1, function(x){sum(x==0)})
+	non_zero_cells <- apply(exp_matrix, 1, function(x){sum(x!=0)})
 
 	for (target in target_genes){
 		if (target %in% total_genes){
 			target_exp <- as.numeric(exp_matrix[target, ])
-			if (num_zero_cells[target] > (num_cells * zero_percent_cut / 100)){
-				print(paste(target, " expression is zero more than ", zero_percent_cut, "% of cells in this subset", sep=""))
+			#if (num_zero_cells[target] > (num_cells * zero_percent_cut / 100)){
+			#	print(paste(target, " expression is zero more than ", zero_percent_cut, "% of cells in this subset", sep=""))
+			#}
+			if (non_zero_cells[target] < cell_number_cut){
+				print(paste(target, " expression is non-zero less than ", cell_number_cut, " cells in this subset", sep=""))
 			}
 			else{
 				output_genes = c()
 				output_spearmans = c()
 				output_cells = c()
 				for (gene in total_genes){
-					if (num_zero_cells[gene] <= (num_cells * zero_percent_cut / 100)){
-						#print(exp_matrix[gene, ])	
+					i#f (num_zero_cells[gene] <= (num_cells * zero_percent_cut / 100)){
+					if (non_zero_cells[gene] >= cell_number_cut){
 						spearman <- cor(target_exp, exp_matrix[gene, ], method="spearman")
 						output_genes = c(output_genes, gene)
 						output_spearmans = c(output_spearmans, spearman)
-						output_cells = c(output_cells, num_cells - num_zero_cells[gene])
+						#output_cells = c(output_cells, num_cells - num_zero_cells[gene])
+						output_cells = c(output_cells, non_zero_cells[gene])
 					}
 				}
 				output_df = data.frame(output_genes, output_spearmans, output_cells)
