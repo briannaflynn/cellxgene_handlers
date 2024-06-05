@@ -70,7 +70,7 @@ main_func <- function(annot, sample_size, my_obj){
 				output_spearmans = c()
 				output_cells = c()
 				for (gene in total_genes){
-					i#f (num_zero_cells[gene] <= (num_cells * zero_percent_cut / 100)){
+					#if (num_zero_cells[gene] <= (num_cells * zero_percent_cut / 100)){
 					if (non_zero_cells[gene] >= cell_number_cut){
 						spearman <- cor(target_exp, exp_matrix[gene, ], method="spearman")
 						output_genes = c(output_genes, gene)
