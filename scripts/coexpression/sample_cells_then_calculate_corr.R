@@ -100,11 +100,13 @@ main_func("tissue_in_publication", 2000, total)
 ###### tissue ######
 subset2 <- subset(total, subset = tissue %!in% c("uterus", "lacrimal gland", "tongue"))
 main_func("tissue", 500, subset2)
+rm(subset2)
 
 ###### cell_type ######
 blacklist <- c("type B pancreatic cell", "gut endothelial cell", "plasmacytoid dendritic cell", "bronchial smooth muscle cell", "tracheal goblet cell", "pancreatic A cell", "intestinal crypt stem cell of small intestine", "pancreatic PP cell", "mucus secreting cell", "tongue muscle cell", "surface ectodermal cell", "epithelial cell of lacrimal sac", "retinal pigment epithelial cell", "blood vessel endothelial cell", "salivary gland cell", "immature natural killer cell", "adipocyte", "duodenum glandular cell", "intrahepatic cholangiocyte", "serous cell of epithelium of trachea", "mesothelial cell", "Langerhans cell", "retinal bipolar neuron", "liver dendritic cell", "DN4 thymocyte", "ciliated epithelial cell", "erythroid lineage cell", "pulmonary ionocyte", "mature conventional dendritic cell", "pigmented ciliary epithelial cell", "serous cell of epithelium of bronchus", "plasmablast", "sperm", "cell of skeletal muscle", "Schwann cell", "pancreatic D cell", "double-positive, alpha-beta thymocyte", "retina horizontal cell", "retinal ganglion cell", "myeloid dendritic cell", "unknown")
 subset3 <- subset(total, subset = cell_type %!in% blacklist)
 main_func("cell_type", 100, subset3)
+rm(subset3)
 
 ### cell_ontology_class ###
 blacklist2 <- c("gut endothelial cell", "pancreatic beta cell", "plasmacytoid dendritic cell", "bronchial smooth muscle cell", "tracheal goblet cell", "limbal stromal cell", "intestinal crypt stem cell of small intestine", "pancreatic pp cell", "pancreatic alpha cell", "mucus secreting cell", "tongue muscle cell", "ocular surface cell", "epithelial cell of lacrimal sac", "retinal pigment epithelial cell", "bronchial vessel endothelial cell", "salivary gland cell", "lymphatic endothelial cell", "immature natural killer cell", "duodenum glandular cell", "adipocyte", "intrahepatic cholangiocyte", "serous cell of epithelium of trachea", "mesothelial cell", "langerhans cell", "liver dendritic cell", "retinal bipolar neuron", "dn4 thymocyte", "ciliated epithelial cell", "erythroid lineage cell", "pulmonary ionocyte", "ciliary body", "mature conventional dendritic cell", "serous cell of epithelium of bronchus", "plasmablast", "sperm", "cell of skeletal muscle", "schwann cell", "pancreatic delta cell", "respiratory mucous cell", "double-positive, alpha-beta thymocyte", "retina horizontal cell", "retinal ganglion cell", "myeloid dendritic cell")
