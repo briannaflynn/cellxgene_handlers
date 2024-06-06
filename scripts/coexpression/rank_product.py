@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Date: May 21, 2024
+#Date: June 5, 2024
 #Author: Muyoung Lee
 #Description: Calculate the rank product of genes based on Spearman correlations from each case.
 #Usage: [THIS SCRIPT]
@@ -27,20 +27,20 @@ with open("random_gene_sets.txt") as RANDOM:
 		target_dict[gene1] = f"Random_set{count}_gene1"
 	
 for target in target_dict:
-	file_list = glob.glob(f"human_cell_landscape/*.{target}_spearman.txt")
-	file_list += glob.glob(f"Tabula_Sapiens/*.{target}_spearman.txt")
-	file_list += glob.glob(f"human_cell_atlas_of_fetal_gene_exp/*.{target}_spearman.txt")
+	file_list = glob.glob(f"human_cell_landscape/*.{target}.spearman.txt")
+	file_list += glob.glob(f"Tabula_Sapiens/*.{target}.spearman.txt")
+	file_list += glob.glob(f"human_cell_atlas_of_fetal_gene_exp/*.{target}.spearman.txt")
 	if len(file_list) < 6:
 		continue
 	flag_gene_rank = {}
 	gene_flag = {}
 	for file_ in file_list:
 		collection= file_.split("/")[0]
-		sampling = file_.split("/")[1].split(".")[0]
+		sampling = file_.split("/")[1].split(".")[1]
 		flag = f"{sampling}@{collection}"
 		if flag not in flag_gene_rank:
 			flag_gene_rank[flag] = {}
-		df = pd.read_csv(file_, sep="\t", names=["Gene", "Corr"], skiprows=1, index_col=0)
+		df = pd.read_csv(file_, sep="\t", names=["Gene", "Corr", "nCells"], skiprows=1, index_col=0)
 		df["pct_rank"] = df["Corr"].rank(pct=True, ascending=False)
 		for gene in df.index:
 			pct_rank = df.loc[gene, "pct_rank"]
@@ -52,7 +52,7 @@ for target in target_dict:
 	
 	gene_RP = {}
 	for gene in gene_flag:
-		if len(gene_flag[gene]) > 5:
+		if len(gene_flag[gene]) >= 6:
 			rank_product = 1
 			for flag in gene_flag[gene]:
 				rank_product *= flag_gene_rank[flag][gene]
@@ -60,7 +60,9 @@ for target in target_dict:
 			gene_RP[gene] = rank_product
 	
 	gene_RP = dict(sorted(gene_RP.items(), key=lambda item: item[1]))
-
+	
+	if len(gene_RP) == 0:
+		continue
 	OUT = open(f"{target_dict[target]}.co-expressed_genes.rank_product.tsv", "w")
 	print("gene", "RP_of_perctile_ranks", "n(Subsamples)", sep="\t", file=OUT)
 	for gene in gene_RP:
