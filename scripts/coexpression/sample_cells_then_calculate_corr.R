@@ -58,7 +58,7 @@ main_func <- function(annot, sample_size, my_obj){
 
 	for (target in target_genes){
 		if (target %in% total_genes){
-			target_exp <- as.numeric(exp_matrix[target, ])
+			target_exp <- exp_matrix[target, ]
 			#if (num_zero_cells[target] > (num_cells * zero_percent_cut / 100)){
 			#	print(paste(target, " expression is zero more than ", zero_percent_cut, "% of cells in this subset", sep=""))
 			#}
