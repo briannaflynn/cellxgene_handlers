@@ -2,19 +2,20 @@ import logging
 import sys
 import io
 from contextlib import contextmanager
+from datetime import datetime
 
-logger = logging.getLogger("cxghandler")
+logger_ = logging.getLogger("cxghandler")
 # check if logger has been initialized
-if not logger.hasHandlers() or len(logger.handlers) == 0:
-    logger.propagate = False
-    logger.setLevel(logging.INFO)
+if not logger_.hasHandlers() or len(logger_.handlers) == 0:
+    logger_.propagate = False
+    logger_.setLevel(logging.INFO)
     handler = logging.StreamHandler(sys.stdout)
     handler.setLevel(logging.INFO)
     formatter = logging.Formatter(
         "%(name)s - %(levelname)s - %(message)s", datefmt="%H:%M:%S"
     )
     handler.setFormatter(formatter)
-    logger.addHandler(handler)
+    logger_.addHandler(handler)
 
 def setup_logger(name, log_file, level=logging.DEBUG):
     """Function to setup as many loggers as you want"""
@@ -57,4 +58,5 @@ class StreamToLogger(object):
 
     def flush(self):
         pass
+
 
