@@ -39,6 +39,7 @@ class Preprocessor:
         binning: Optional[int] = None,
         result_binned_key: str = "X_binned",
         even_binning: bool = False,
+        filter_observations: dict = None,
         execute_filter_genes: str = 'on',
         execute_filter_cells: str = 'on',
         execute_normalize_total: str = 'on',
@@ -64,6 +65,7 @@ class Preprocessor:
         self.binning = binning
         self.result_binned_key = result_binned_key
         self.even_binning = even_binning
+        self.filter_observations=filter_observations
 
         self.execute_filter_genes = execute_filter_genes
         self.execute_filter_cells = execute_filter_cells
@@ -81,6 +83,10 @@ class Preprocessor:
         """
         key_to_process = self._resolve_key_to_process(adata)
         is_logged = self.check_logged(adata, obs_key=key_to_process)
+        
+        # if dictionary provided, filter out rows by specified observation column row pairs
+        if self.filter_observations:
+            self.filter_obs(adata, self.filter_observations)
 
         # previously: run each method in sequence based on the parameters set at initialization
         # self._filter_genes(adata)
@@ -224,6 +230,33 @@ class Preprocessor:
         rands = np.random.rand(len(x))
         digits = rands * (right_digits - left_digits) + left_digits
         return np.ceil(digits).astype(np.int64)
+    
+    def filter_obs(self, adata: AnnData, filters: Dict[str, Union[str, List[str]]]) -> None:
+        """
+        Filters the rows of an AnnData object based on key-value pairs in adata.obs and updates the adata object in place.
+
+        Args:
+            adata: AnnData object to filter.
+            filters: Dictionary where keys are column names in adata.obs and values are the desired values to filter by. 
+                    Values can be a single string or a list of strings.
+
+        Returns:
+            None
+        """
+        query = np.ones(adata.shape[0], dtype=bool)
+
+        for key, value in filters.items():
+            if key not in adata.obs:
+                raise ValueError(f"Column '{key}' not found in adata.obs.")
+
+            if isinstance(value, list):
+                condition = adata.obs[key].isin(value)
+            else:
+                condition = adata.obs[key] == value
+
+            query = query & condition
+
+        adata._inplace_subset_obs(query)
 
     def check_logged(self, adata: AnnData, obs_key: Optional[str] = None) -> bool:
         """
