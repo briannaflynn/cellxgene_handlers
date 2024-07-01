@@ -38,7 +38,13 @@ class Preprocessor:
         hvg_flavor: str = "seurat_v3",
         binning: Optional[int] = None,
         result_binned_key: str = "X_binned",
-        even_binning: bool = False
+        even_binning: bool = False,
+        execute_filter_genes: str = 'on',
+        execute_filter_cells: str = 'on',
+        execute_normalize_total: str = 'on',
+        execute_log1p: str = 'on',
+        execute_subset_hvg: str = 'on',
+        execute_binning: str = 'on'
     ):
         """
         Initializes the Preprocessor with the specified settings.
@@ -59,6 +65,13 @@ class Preprocessor:
         self.result_binned_key = result_binned_key
         self.even_binning = even_binning
 
+        self.execute_filter_genes = execute_filter_genes
+        self.execute_filter_cells = execute_filter_cells
+        self.execute_normalize_total = execute_normalize_total
+        self.execute_log1p = execute_log1p
+        self.execute_subset_hvg = execute_subset_hvg
+        self.execute_binning = execute_binning
+
     def __call__(self, adata: AnnData, batch_key: Optional[str] = None) -> Dict:
         """
         Processes the AnnData object based on initialized configurations.
@@ -69,12 +82,27 @@ class Preprocessor:
         key_to_process = self._resolve_key_to_process(adata)
         is_logged = self.check_logged(adata, obs_key=key_to_process)
 
-        self._filter_genes(adata)
-        self._filter_cells(adata)
-        key_to_process = self._normalize_total(adata, key_to_process)
-        key_to_process = self._apply_log1p(adata, key_to_process, is_logged)
-        self._subset_hvg(adata, batch_key)
-        self._apply_binning(adata, key_to_process)
+        # previously: run each method in sequence based on the parameters set at initialization
+        # self._filter_genes(adata)
+        # self._filter_cells(adata)
+        # key_to_process = self._normalize_total(adata, key_to_process)
+        # key_to_process = self._apply_log1p(adata, key_to_process, is_logged)
+        # self._subset_hvg(adata, batch_key)
+        # self._apply_binning(adata, key_to_process)
+
+        # new: determine what method to run if any
+        if self.execute_filter_genes == 'on':
+            self._filter_genes(adata)
+        if self.execute_filter_cells == 'on':
+            self._filter_cells(adata)
+        if self.execute_normalize_total == 'on':
+            key_to_process = self._normalize_total(adata, key_to_process)
+        if self.execute_log1p == 'on':
+            key_to_process = self._apply_log1p(adata, key_to_process, is_logged)
+        if self.execute_subset_hvg == 'on':
+            self._subset_hvg(adata, batch_key)
+        if self.execute_binning == 'on':
+            self._apply_binning(adata, key_to_process)
 
     def _resolve_key_to_process(self, adata: AnnData) -> Optional[str]:
         return None if self.use_key == "X" else self.use_key
