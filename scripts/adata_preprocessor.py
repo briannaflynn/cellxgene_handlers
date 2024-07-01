@@ -1,11 +1,21 @@
-from typing import Dict, Optional, Union
+from typing import Dict, Optional, Union, Tuple, List
 import numpy as np
-import torch
 from scipy.sparse import issparse
 import scanpy as sc
 from scanpy.get import _get_obs_rep, _set_obs_rep
 from anndata import AnnData
-from cxg_logger import logger
+from cxg_logger import *
+from datetime import datetime
+
+# Get current date and time as string to create log filename with date and time suffix
+current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
+log_filename = f'output_{current_time}.log'
+
+# Set up logger to log to both console and file
+logger = setup_logger('my_logger', log_filename)
+
+with StreamToLogger(logger):
+    print("This will be logged to both the console and the output log file with the current date and time suffix.")
 
 class Preprocessor:
     """
