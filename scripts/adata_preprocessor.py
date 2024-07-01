@@ -26,7 +26,6 @@ class Preprocessor:
 
     def __init__(
         self,
-        adata: AnnData,
         use_key: Optional[str] = None,
         filter_gene_by_counts: Union[int, bool] = False,
         filter_cell_by_counts: Union[int, bool] = False,
@@ -53,7 +52,6 @@ class Preprocessor:
         Args:
             (Refer to previous docstring for argument descriptions)
         """
-        self.adata = adata
         self.use_key = use_key
         self.filter_gene_by_counts = filter_gene_by_counts
         self.filter_cell_by_counts = filter_cell_by_counts
@@ -90,15 +88,7 @@ class Preprocessor:
         if self.filter_observations:
             self.filter_obs(adata, self.filter_observations)
 
-        # previously: run each method in sequence based on the parameters set at initialization
-        # self._filter_genes(adata)
-        # self._filter_cells(adata)
-        # key_to_process = self._normalize_total(adata, key_to_process)
-        # key_to_process = self._apply_log1p(adata, key_to_process, is_logged)
-        # self._subset_hvg(adata, batch_key)
-        # self._apply_binning(adata, key_to_process)
-
-        # new: determine what method to run if any
+        # new: determine what method to run via on or off parameter
         if self.execute_filter_genes == 'on':
             self._filter_genes(adata)
         if self.execute_filter_cells == 'on':
