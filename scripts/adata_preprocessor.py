@@ -26,6 +26,7 @@ class Preprocessor:
 
     def __init__(
         self,
+        adata: AnnData,
         use_key: Optional[str] = None,
         filter_gene_by_counts: Union[int, bool] = False,
         filter_cell_by_counts: Union[int, bool] = False,
@@ -52,6 +53,7 @@ class Preprocessor:
         Args:
             (Refer to previous docstring for argument descriptions)
         """
+        self.adata = adata
         self.use_key = use_key
         self.filter_gene_by_counts = filter_gene_by_counts
         self.filter_cell_by_counts = filter_cell_by_counts
