@@ -1,0 +1,12 @@
+Gene stable ID	Gene name	Gene type	Chromosome/scaffold name
+ENSG00000127463	EMC1	protein_coding	1
+ENSG00000161671	EMC10	protein_coding	19
+ENSG00000104412	EMC2	protein_coding	8
+ENSG00000125037	EMC3	protein_coding	3
+ENSG00000128463	EMC4	protein_coding	15
+ENSG00000127774	EMC6	protein_coding	17
+ENSG00000134153	EMC7	protein_coding	15
+ENSG00000131148	EMC8	protein_coding	16
+ENSG00000285377	EMC9	protein_coding	HG1_PATCH
+ENSG00000100908	EMC9	protein_coding	14
+ENSG00000169446	MMGT1	protein_coding	X
