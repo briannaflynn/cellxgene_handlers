@@ -7,12 +7,12 @@ from anndata import AnnData
 from cxg_logger import *
 from datetime import datetime
 
-# Get current date and time as string to create log filename with date and time suffix
+# date and time as logfile suffix 
 current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
-log_filename = f'output_{current_time}.log'
+log_filename = f'../logs/preprocess/preprocessor_{current_time}.log'
 
 # Set up logger to log to both console and file
-logger = setup_logger('my_logger', log_filename)
+logger = setup_logger('cxg_logger', log_filename)
 
 with StreamToLogger(logger):
     print("This will be logged to both the console and the output log file with the current date and time suffix.")
