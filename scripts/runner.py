@@ -18,6 +18,7 @@ print(synthetic_adata.obs)
 filter_obs_preprocessor = Preprocessor(
     use_key=None,
     filter_gene_by_counts=False,
+    gene_filter=False,
     filter_cell_by_counts=False,
     normalize_total=False,
     result_normed_key="X_normed",
@@ -76,4 +77,38 @@ Synthetic data after observation filter via preprocessor class
 699  cell_699    neuron  normal    human
 
 [700 rows x 4 columns]
+"""
+
+gene_filter_preprocessor = Preprocessor(
+    use_key=None,
+    filter_gene_by_counts=False,
+    gene_filter={"gene_id" : ["gene_0", "gene_1", "gene_2"]},
+    filter_cell_by_counts=False,
+    normalize_total=False,
+    result_normed_key="X_normed",
+    log1p=False,
+    result_log1p_key="X_log1p",
+    subset_hvg=False,
+    hvg_use_key=None,
+    hvg_flavor="seurat_v3",
+    binning=None,
+    result_binned_key="X_binned",
+    even_binning=False,
+    execute_filter_genes='on',
+    execute_filter_cells='off',
+    execute_normalize_total='off',
+    execute_log1p='off',
+    execute_subset_hvg='off',
+    execute_binning='off'
+)
+
+gene_filter_preprocessor(synthetic_adata)
+
+print(synthetic_adata.var)
+
+"""
+  gene_id
+0  gene_0
+1  gene_1
+2  gene_2
 """
