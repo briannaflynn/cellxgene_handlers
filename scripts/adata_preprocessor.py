@@ -28,6 +28,7 @@ class Preprocessor:
         self,
         use_key: Optional[str] = None,
         filter_gene_by_counts: Union[int, bool] = False,
+        gene_filter: Union[Dict[str, Union[str, List[str]]], bool] = False,
         filter_cell_by_counts: Union[int, bool] = False,
         normalize_total: Union[float, bool] = 1e4,
         result_normed_key: Optional[str] = "X_normed",
@@ -54,6 +55,7 @@ class Preprocessor:
         """
         self.use_key = use_key
         self.filter_gene_by_counts = filter_gene_by_counts
+        self.gene_filter = gene_filter
         self.filter_cell_by_counts = filter_cell_by_counts
         self.normalize_total = normalize_total
         self.result_normed_key = result_normed_key
@@ -111,14 +113,26 @@ class Preprocessor:
     #         sc.pp.filter_genes(adata, min_counts=self.filter_gene_by_counts if isinstance(self.filter_gene_by_counts, int) else None)
     
     # new: provide a list of genes to filter in addition to optional filtering by count
-    def _filter_genes(self, adata: AnnData, gene_list: Optional[List[str]] = None) -> None:
-        if gene_list:
-            logger.info("Filtering genes by provided list...")
-            adata = adata[:, adata.var_names.isin(gene_list)]
+    def _filter_genes(self, adata: AnnData) -> None:
+        
+        if self.gene_filter:
+            logger.info("Filtering genes by provided dictionary, where key is a column (check adata.var.columns for details), and value is a string or list to build query...")
+
+            query = np.ones(adata.shape[1], dtype=bool)
+            for key, value in self.gene_filter.items():
+                if key not in adata.var:
+                    raise ValueError(f"Column '{key}' not found in adata.var.")
+                if isinstance(value, list):
+                    condition = adata.var[key].isin(value)
+                else:
+                    condition = adata.var[key] == value
+                query = query & condition
+            adata._inplace_subset_var(query)
 
         if self.filter_gene_by_counts:
             logger.info("Filtering genes by counts...")
             sc.pp.filter_genes(adata, min_counts=self.filter_gene_by_counts if isinstance(self.filter_gene_by_counts, int) else None)
+
 
     def _filter_cells(self, adata: AnnData) -> None:
         if isinstance(self.filter_cell_by_counts, int):
