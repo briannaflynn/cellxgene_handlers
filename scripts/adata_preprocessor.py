@@ -107,12 +107,6 @@ class Preprocessor:
     def _resolve_key_to_process(self, adata: AnnData) -> Optional[str]:
         return None if self.use_key == "X" else self.use_key
 
-    # def _filter_genes(self, adata: AnnData) -> None:
-    #     if self.filter_gene_by_counts:
-    #         logger.info("Filtering genes by counts...")
-    #         sc.pp.filter_genes(adata, min_counts=self.filter_gene_by_counts if isinstance(self.filter_gene_by_counts, int) else None)
-    
-    # new: provide a list of genes to filter in addition to optional filtering by count
     def _filter_genes(self, adata: AnnData) -> None:
         
         if self.gene_filter:
