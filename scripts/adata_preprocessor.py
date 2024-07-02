@@ -29,6 +29,7 @@ class Preprocessor:
         use_key: Optional[str] = None,
         filter_gene_by_counts: Union[int, bool] = False,
         gene_filter: Union[Dict[str, Union[str, List[str]]], bool] = False,
+        genes_to_keep: Optional[List[str]] = None,
         filter_cell_by_counts: Union[int, bool] = False,
         normalize_total: Union[float, bool] = 1e4,
         result_normed_key: Optional[str] = "X_normed",
@@ -56,6 +57,7 @@ class Preprocessor:
         self.use_key = use_key
         self.filter_gene_by_counts = filter_gene_by_counts
         self.gene_filter = gene_filter
+        self.genes_to_keep = genes_to_keep
         self.filter_cell_by_counts = filter_cell_by_counts
         self.normalize_total = normalize_total
         self.result_normed_key = result_normed_key
@@ -122,6 +124,11 @@ class Preprocessor:
                     condition = adata.var[key] == value
                 query = query & condition
             adata._inplace_subset_var(query)
+        elif self.genes_to_keep:
+            logger.info("Filtering genes to keep only the specified genes...")
+            genes_to_keep_set = set(self.genes_to_keep)
+            genes_mask = [gene in genes_to_keep_set for gene in adata.var_names]
+            adata._inplace_subset_var(genes_mask)
 
         if self.filter_gene_by_counts:
             logger.info("Filtering genes by counts...")
