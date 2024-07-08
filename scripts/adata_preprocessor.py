@@ -27,27 +27,28 @@ class Preprocessor:
     def __init__(
         self,
         use_key: Optional[str] = None,
-        filter_gene_by_counts: Union[int, bool] = False,
-        gene_filter: Union[Dict[str, Union[str, List[str]]], bool] = False,
+        convert_raw: Optional[bool] = False,
+        filter_gene_by_counts: Optional[Union[int, bool]] = False,
+        gene_filter: Optional[Union[Dict[str, Union[str, List[str]]], bool]] = False,
         genes_to_keep: Optional[List[str]] = None,
-        filter_cell_by_counts: Union[int, bool] = False,
-        normalize_total: Union[float, bool] = 1e4,
+        filter_cell_by_counts: Optional[Union[int, bool]] = False,
+        normalize_total: Optional[Union[float, bool]] = 1e4,
         result_normed_key: Optional[str] = "X_normed",
-        log1p: bool = False,
-        result_log1p_key: str = "X_log1p",
-        subset_hvg: Union[int, bool] = False,
+        log1p: Optional[bool] = False,
+        result_log1p_key: Optional[str] = "X_log1p",
+        subset_hvg: Optional[Union[int, bool]] = False,
         hvg_use_key: Optional[str] = None,
-        hvg_flavor: str = "seurat_v3",
+        hvg_flavor: Optional[str] = "seurat_v3",
         binning: Optional[int] = None,
-        result_binned_key: str = "X_binned",
-        even_binning: bool = False,
-        filter_observations: dict = None,
-        execute_filter_genes: str = 'on',
-        execute_filter_cells: str = 'on',
-        execute_normalize_total: str = 'on',
-        execute_log1p: str = 'on',
-        execute_subset_hvg: str = 'on',
-        execute_binning: str = 'on'
+        result_binned_key: Optional[str] = "X_binned",
+        even_binning: Optional[bool] = False,
+        filter_observations: Optional[dict] = None,
+        execute_filter_genes: Optional[str] = 'off',
+        execute_filter_cells: Optional[str] = 'off',
+        execute_normalize_total: Optional[str] = 'off',
+        execute_log1p: Optional[str] = 'off',
+        execute_subset_hvg: Optional[str] = 'off',
+        execute_binning: Optional[str] = 'off'
     ):
         """
         Initializes the Preprocessor with the specified settings.
@@ -55,6 +56,7 @@ class Preprocessor:
             (Refer to previous docstring for argument descriptions)
         """
         self.use_key = use_key
+        self.convert_raw = convert_raw
         self.filter_gene_by_counts = filter_gene_by_counts
         self.gene_filter = gene_filter
         self.genes_to_keep = genes_to_keep
@@ -87,6 +89,8 @@ class Preprocessor:
         """
         key_to_process = self._resolve_key_to_process(adata)
         is_logged = self.check_logged(adata, obs_key=key_to_process)
+        if self.convert_raw:
+            _convert_raw_to_X(adata)
         
         # if dictionary provided, filter out rows by specified observation column row pairs
         if self.filter_observations:
@@ -107,42 +111,55 @@ class Preprocessor:
             self._apply_binning(adata, key_to_process)
 
     def _resolve_key_to_process(self, adata: AnnData) -> Optional[str]:
+
         return None if self.use_key == "X" else self.use_key
+    
+    def _convert_raw_to_X(self, adata: AnnData) -> None:
+        
+        logger.info('Converting raw data matrix anndata.raw.X to main matrix anndata.X')
+        adata.X = adata.raw.X.copy()
+
+        logger.info('Updating raw.var and raw.var_names to var and var_names')
+        adata.var = adata.raw.var.copy()
+        adata.var_names = adata.raw.var_names.copy()
 
     def _filter_genes(self, adata: AnnData) -> None:
         
         if self.gene_filter:
-            logger.info("Filtering genes by provided dictionary, where key is a column (check adata.var.columns for details), and value is a string or list to build query...")
+            logger.info("Filtering genes by provided dictionary, where key is a column (check adata.var.columns for details), and value is a string or list to build query ... ")
 
             query = np.ones(adata.shape[1], dtype=bool)
             for key, value in self.gene_filter.items():
                 if key not in adata.var:
-                    raise ValueError(f"Column '{key}' not found in adata.var.")
+                    raise ValueError(f"Column '{key}' not found in adata.var ... ")
                 if isinstance(value, list):
                     condition = adata.var[key].isin(value)
                 else:
                     condition = adata.var[key] == value
                 query = query & condition
             adata._inplace_subset_var(query)
+            
         elif self.genes_to_keep:
-            logger.info("Filtering genes to keep only the specified genes...")
+            logger.info("Filtering genes to keep only the specified genes ... ")
             genes_to_keep_set = set(self.genes_to_keep)
+            #print("adata.var_names", len(adata.var_names))
             genes_mask = [gene in genes_to_keep_set for gene in adata.var_names]
+            #print("Genes_mask", len(genes_mask))
             adata._inplace_subset_var(genes_mask)
 
         if self.filter_gene_by_counts:
-            logger.info("Filtering genes by counts...")
+            logger.info("Filtering genes by counts ... ")
             sc.pp.filter_genes(adata, min_counts=self.filter_gene_by_counts if isinstance(self.filter_gene_by_counts, int) else None)
 
 
     def _filter_cells(self, adata: AnnData) -> None:
         if isinstance(self.filter_cell_by_counts, int):
-            logger.info("Filtering cells by counts...")
+            logger.info("Filtering cells by counts ... ")
             sc.pp.filter_cells(adata, min_counts=self.filter_cell_by_counts)
 
     def _normalize_total(self, adata: AnnData, key_to_process: Optional[str]) -> Optional[str]:
         if self.normalize_total:
-            logger.info("Normalizing total counts...")
+            logger.info("Normalizing total counts ... ")
             normed_data = sc.pp.normalize_total(adata, target_sum=self.normalize_total if isinstance(self.normalize_total, float) else None, layer=key_to_process, inplace=False)["X"]
             key_to_process = self.result_normed_key or key_to_process
             _set_obs_rep(adata, normed_data, layer=key_to_process)
@@ -150,7 +167,7 @@ class Preprocessor:
 
     def _apply_log1p(self, adata: AnnData, key_to_process: Optional[str], is_logged: bool) -> Optional[str]:
         if self.log1p:
-            logger.info("Log1p transforming...")
+            logger.info("Log1p transforming ... ")
             if is_logged:
                 logger.warning(
                     "The input data appears to be already log1p transformed. "
@@ -168,7 +185,7 @@ class Preprocessor:
 
     def _subset_hvg(self, adata: AnnData, batch_key: Optional[str] = None) -> None:
         if self.subset_hvg:
-            logger.info("Subsetting highly variable genes...")
+            logger.info("Subsetting highly variable genes ... ")
             if batch_key is None:
                 logger.warning(
                     "No batch_key is provided. Using all cells for HVG selection."
