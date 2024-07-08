@@ -6,6 +6,7 @@ from scanpy.get import _get_obs_rep, _set_obs_rep
 from anndata import AnnData
 from cxg_logger import *
 from datetime import datetime
+import anndata
 
 # date and time as logfile suffix 
 current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -90,7 +91,7 @@ class Preprocessor:
         key_to_process = self._resolve_key_to_process(adata)
         is_logged = self.check_logged(adata, obs_key=key_to_process)
         if self.convert_raw:
-            _convert_raw_to_X(adata)
+            self._convert_raw_to_X(adata)
         
         # if dictionary provided, filter out rows by specified observation column row pairs
         if self.filter_observations:
@@ -115,13 +116,32 @@ class Preprocessor:
         return None if self.use_key == "X" else self.use_key
     
     def _convert_raw_to_X(self, adata: AnnData) -> None:
-        
-        logger.info('Converting raw data matrix anndata.raw.X to main matrix anndata.X')
-        adata.X = adata.raw.X.copy()
 
-        logger.info('Updating raw.var and raw.var_names to var and var_names')
-        adata.var = adata.raw.var.copy()
-        adata.var_names = adata.raw.var_names.copy()
+        try:
+            logger.info('Converting raw data matrix anndata.raw.X to main matrix anndata.X')
+            adata.X = adata.raw.X.copy()
+            logger.info('Updating raw.var and raw.var_names to var and var_names')
+            adata.var = adata.raw.var.copy()
+            adata.var_names = adata.raw.var_names.copy()
+        except ValueError as e:
+            print(f"Data matrix has wrong shape, most likely issue with previous filter on adata.var_names not applied to adata.raw.var_names: {e}")
+            
+            logger.info("Subsetting raw data to common genes, then copying to anndata.X")
+            common_genes = adata.raw.var_names.intersection(adata.var_names)
+            if len(common_genes) == 0:
+                raise ValueError("No common genes between adata.raw and adata")
+
+             # subset raw and adata to common genes
+            adata_raw_subset = adata.raw[:, common_genes]
+            adata_subset = adata[:, common_genes]
+            
+            # Update raw attribute with subsetted data
+            adata.raw = anndata.AnnData(X=adata_raw_subset.X, var=adata_raw_subset.var)
+            
+            # Update main data with subsetted data
+            adata.X = adata.raw.X.copy()
+            adata.var = adata.raw.var
+            adata.var_names = adata.raw.var_names
 
     def _filter_genes(self, adata: AnnData) -> None:
         
