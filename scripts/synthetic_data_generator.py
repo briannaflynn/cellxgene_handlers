@@ -15,19 +15,20 @@ def generate_synthetic_anndata(num_cells:int, num_genes:int, sparsity:float=0.1,
     # create anndata object
     adata = anndata.AnnData(X=data_sparse)
 
+    adata.obs['cell_id'] = [f'cell_{i}' for i in range(num_cells)]
+    adata.var['gene_id'] = [f'gene_{i}' for i in range(num_genes)]
+
     # add raw data matrix to anndata object
     raw_data = np.random.poisson(1, (num_cells, num_genes))
     raw_mask = np.random.binomial(1, 1 - sparsity, raw_data.shape).astype(bool)
     raw_data[~raw_mask] = 0
     raw_data_sparse = sp.csr_matrix(raw_data)
+    raw_adata = anndata.AnnData(X=raw_data_sparse)
+    raw_adata.var['gene_id'] = adata.var['gene_id']
+    raw_adata.var_names = adata.var_names
 
-    adata.raw = anndata.AnnData(X=raw_data_sparse)
-
-    adata.raw.var['gene_id'] = adata.var['gene_id']
-    adata.raw.var_names = adata.var_names
-
-    adata.obs['cell_id'] = [f'cell_{i}' for i in range(num_cells)]
-    adata.var['gene_id'] = [f'gene_{i}' for i in range(num_genes)]
+    # Assign the raw anndata to adata.raw
+    adata.raw = raw_adata
 
     # add metadata? optional values are lists that should have correct matching dimensions with num_cells
     if observations:
