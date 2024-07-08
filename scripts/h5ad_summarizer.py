@@ -128,3 +128,5 @@ def read_single_col_file(list_file):
     return lines
 
 
+data = sys.argv[1]
+process_h5ad(data, summarize_file_structure=True)
