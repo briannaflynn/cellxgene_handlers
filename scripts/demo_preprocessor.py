@@ -119,7 +119,6 @@ print(synthetic_adata.var)
 # print(synthetic_adata.var_names)
 
 lite_gene_filter_preprocessor = Preprocessor(
-    use_key=None,
     genes_to_keep=["0", "1"],
     execute_filter_genes='on'
 )
@@ -137,7 +136,6 @@ print(synthetic_adata.var)
 synthetic_adata = generate_synthetic_anndata(num_cells=1000, num_genes=1000, sparsity = 0.7, observations={'cell_type':['neuron'] * 1000, 'disease':['normal']* 1000, 'organism': ['human'] * 700 + ['mouse'] * 300})
 
 raw_lite_gene_filter_preprocessor = Preprocessor(
-    use_key=None,
     convert_raw=True,
     genes_to_keep=["1"],
     execute_filter_genes='on'
